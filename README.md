@@ -43,6 +43,8 @@ env:     AGC_SERVICE_ACCOUNT_FILE=/path/to/service-account.json
 
 两个 `env` 都可以省略：不配置 AGC 凭据时，文档检索类工具照常可用。凭据的获取方法见[配置 AGC 凭据](#配置-agc-凭据)。
 
+> 还没发布到 npm 时，可以把 `agc-connect-mcp` 换成 `github:chen2he/agc-connect-mcp`，直接从 GitHub 运行（首次运行会自动下载并编译）。
+
 <details>
 <summary>从源码安装（不经过 npm）</summary>
 

@@ -43,6 +43,8 @@ env:     AGC_SERVICE_ACCOUNT_FILE=/path/to/service-account.json
 
 Both env vars are optional. Without AGC credentials, the documentation tools still work. See [AGC credentials](#agc-credentials) for how to get them.
 
+> Until the package is on npm, use `github:chen2he/agc-connect-mcp` in place of `agc-connect-mcp` to run straight from GitHub (the first run downloads and builds it).
+
 <details>
 <summary>Install from source (without npm)</summary>
 
