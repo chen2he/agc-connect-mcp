@@ -47,7 +47,7 @@ Both env vars are optional. Without AGC credentials, the documentation tools sti
 <summary>Install from source (without npm)</summary>
 
 ```bash
-git clone <repository-url> agc-connect-mcp
+git clone https://github.com/chen2he/agc-connect-mcp.git
 cd agc-connect-mcp
 npm install   # builds dist/ automatically
 ```

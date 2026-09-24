@@ -47,7 +47,7 @@ env:     AGC_SERVICE_ACCOUNT_FILE=/path/to/service-account.json
 <summary>从源码安装（不经过 npm）</summary>
 
 ```bash
-git clone <本仓库地址> agc-connect-mcp
+git clone https://github.com/chen2he/agc-connect-mcp.git
 cd agc-connect-mcp
 npm install   # 会自动编译到 dist/
 ```

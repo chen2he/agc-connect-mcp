@@ -17,6 +17,14 @@
   ],
   "author": "chen2he <z@hz.do>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chen2he/agc-connect-mcp.git"
+  },
+  "homepage": "https://github.com/chen2he/agc-connect-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/chen2he/agc-connect-mcp/issues"
+  },
   "type": "module",
   "bin": {
     "agc-connect-mcp": "dist/index.js"
