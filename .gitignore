@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.cache/
+*.tgz
+.env
+.env.*
+*private*.json
+*client*.json
+.DS_Store

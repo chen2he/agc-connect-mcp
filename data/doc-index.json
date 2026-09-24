@@ -1,0 +1,5737 @@
+{
+ "agcapi-obtain_token-0000001158365043": {
+  "title": "获取Token",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "获取Token"
+  ],
+  "group": "Auth",
+  "platform": "common",
+  "updated": "2026-03-10 10:08:03"
+ },
+ "agcapi-obtain-token-project-0000001477336048": {
+  "title": "获取Token（项目级）",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "获取Token（项目级）"
+  ],
+  "group": "Auth",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:02"
+ },
+ "agcapi-publishing-api-0000002351880118": {
+  "title": "Publishing API",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Publishing API"
+  ],
+  "group": "Publishing API",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:02"
+ },
+ "agcapi-publishingapi-harmonyos-0000002093065194": {
+  "title": "HarmonyOS 5及以上",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Publishing API",
+   "HarmonyOS 5及以上"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:02"
+ },
+ "agcapi-publishingapi-0000001150409957": {
+  "title": "Android",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Publishing API",
+   "Android"
+  ],
+  "group": "Publishing API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:04"
+ },
+ "agcapi-appid-list-0000001111845086": {
+  "title": "查询应用包名对应的appid",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Publishing API",
+   "Android",
+   "查询应用包名对应的appid"
+  ],
+  "group": "Publishing API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:07"
+ },
+ "agcapi-app-info-query-0000001158365045": {
+  "title": "查询应用信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Publishing API",
+   "Android",
+   "查询应用信息"
+  ],
+  "group": "Publishing API",
+  "platform": "android",
+  "updated": "2025-11-21 09:52:05"
+ },
+ "agcapi-app-info-update-0000001111685198": {
+  "title": "更新应用基本信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Publishing API",
+   "Android",
+   "更新应用基本信息"
+  ],
+  "group": "Publishing API",
+  "platform": "android",
+  "updated": "2026-09-11 01:28:02"
+ },
+ "agcapi-language-info-update-0000001158245057": {
+  "title": "更新语言描述信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Publishing API",
+   "Android",
+   "更新语言描述信息"
+  ],
+  "group": "Publishing API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:09"
+ },
+ "agcapi-language-info-delete-0000001111845088": {
+  "title": "删除语言描述信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Publishing API",
+   "Android",
+   "删除语言描述信息"
+  ],
+  "group": "Publishing API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:10"
+ },
+ "agcapi-app-file-info-0000001111685202": {
+  "title": "更新应用文件信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Publishing API",
+   "Android",
+   "更新应用文件信息"
+  ],
+  "group": "Publishing API",
+  "platform": "android",
+  "updated": "2025-11-21 09:52:05"
+ },
+ "agcapi-app-submit-0000001158245061": {
+  "title": "提交发布",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Publishing API",
+   "Android",
+   "提交发布"
+  ],
+  "group": "Publishing API",
+  "platform": "android",
+  "updated": "2025-08-25 05:48:04"
+ },
+ "agcapi-app-submit-with-file-0000001111845092": {
+  "title": "通过下载方式提交发布",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Publishing API",
+   "Android",
+   "通过下载方式提交发布"
+  ],
+  "group": "Publishing API",
+  "platform": "android",
+  "updated": "2026-01-21 08:00:03"
+ },
+ "agcapi-phased-release-0000001111685204": {
+  "title": "更新分阶段发布",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Publishing API",
+   "Android",
+   "更新分阶段发布"
+  ],
+  "group": "Publishing API",
+  "platform": "android",
+  "updated": "2025-08-25 05:48:05"
+ },
+ "agcapi-notify-release-0000001158245063": {
+  "title": "回调结果通知",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Publishing API",
+   "Android",
+   "回调结果通知"
+  ],
+  "group": "Publishing API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:13"
+ },
+ "agcapi-gms-0000001111845094": {
+  "title": "设置应用GMS依赖属性",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Publishing API",
+   "Android",
+   "设置应用GMS依赖属性"
+  ],
+  "group": "Publishing API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:14"
+ },
+ "agcapi-update-releasetime-0000001158365053": {
+  "title": "更新版本上架时间",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Publishing API",
+   "Android",
+   "更新版本上架时间"
+  ],
+  "group": "Publishing API",
+  "platform": "android",
+  "updated": "2026-04-27 07:12:02"
+ },
+ "agcapi-query-aabfile-0000001111685206": {
+  "title": "查询软件包编译状态",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Publishing API",
+   "Android",
+   "查询软件包编译状态"
+  ],
+  "group": "Publishing API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:15"
+ },
+ "agcapi-add-packageurl-0000001158245065": {
+  "title": "通过下载方式提交软件包",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Publishing API",
+   "Android",
+   "通过下载方式提交软件包"
+  ],
+  "group": "Publishing API",
+  "platform": "android",
+  "updated": "2026-01-21 08:00:03"
+ },
+ "agcapi-obbfile-package-list-0000001111685210": {
+  "title": "查询软件包列表",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Publishing API",
+   "Android",
+   "查询软件包列表"
+  ],
+  "group": "Publishing API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:16"
+ },
+ "agcapi-publishingapi-errorcode-0000001163523297": {
+  "title": "错误码",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Publishing API",
+   "Android",
+   "错误码"
+  ],
+  "group": "Publishing API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:16"
+ },
+ "agcapi-uploadapi-0000002092927786": {
+  "title": "Upload Management API",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Upload Management API"
+  ],
+  "group": "Upload Management API",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:02"
+ },
+ "agcapi-upload-url-new-0000001111685200": {
+  "title": "获取文件上传地址",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Upload Management API",
+   "获取文件上传地址"
+  ],
+  "group": "Upload Management API",
+  "platform": "common",
+  "updated": "2026-05-26 03:30:03"
+ },
+ "agcapi-upload-file-new-0000001111845090": {
+  "title": "上传文件",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Upload Management API",
+   "上传文件"
+  ],
+  "group": "Upload Management API",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:04"
+ },
+ "agcapi-obbfile-init-0000001158365055": {
+  "title": "分片上传初始化",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Upload Management API",
+   "分片上传初始化"
+  ],
+  "group": "Upload Management API",
+  "platform": "common",
+  "updated": "2026-03-10 10:08:03"
+ },
+ "agcapi-obbfile-uploadurl-0000001111685208": {
+  "title": "获取分片上传地址",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Upload Management API",
+   "获取分片上传地址"
+  ],
+  "group": "Upload Management API",
+  "platform": "common",
+  "updated": "2026-03-10 10:08:03"
+ },
+ "agcapi-obbfile-upload-0000001158245067": {
+  "title": "上传分片实体",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Upload Management API",
+   "上传分片实体"
+  ],
+  "group": "Upload Management API",
+  "platform": "common",
+  "updated": "2025-12-02 09:24:03"
+ },
+ "agcapi-obbfile-compose-0000001111845098": {
+  "title": "合并分片",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Upload Management API",
+   "合并分片"
+  ],
+  "group": "Upload Management API",
+  "platform": "common",
+  "updated": "2026-03-10 10:08:03"
+ },
+ "agcapi-uploadapi-errorcode-harmonyos-0000002123259325": {
+  "title": "错误码",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Upload Management API",
+   "错误码"
+  ],
+  "group": "Upload Management API",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:07"
+ },
+ "agcapi-provisioningapi-0000001948120189": {
+  "title": "Provisioning API",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Provisioning API"
+  ],
+  "group": "Provisioning API",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:02"
+ },
+ "agcapi-domianapi-0000002092961264": {
+  "title": "Domain Management API",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Domain Management API"
+  ],
+  "group": "Domain Management API",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:02"
+ },
+ "agcapi-testingapi-0000001976063505": {
+  "title": "Testing API",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Testing API"
+  ],
+  "group": "Testing API",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:02"
+ },
+ "agcapi-reportsapi-0000001111685194": {
+  "title": "Reports API",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Reports API"
+  ],
+  "group": "Reports API",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:02"
+ },
+ "agcapi-reportsapi-harmonyos-0000002390306409": {
+  "title": "HarmonyOS 5及以上",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Reports API",
+   "HarmonyOS 5及以上"
+  ],
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:03"
+ },
+ "agcapi-reportsapi-android-0000002356786268": {
+  "title": "HarmonyOS 3.1/4.0及以下、Android",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Reports API",
+   "HarmonyOS 3.1/4.0及以下、Android"
+  ],
+  "group": "Reports API",
+  "platform": "android",
+  "updated": "2026-03-10 10:08:03"
+ },
+ "agcapi-appdownloadexport-0000001158365059": {
+  "title": "获取下载安装的报表",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Reports API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "获取下载安装的报表"
+  ],
+  "group": "Reports API",
+  "platform": "android",
+  "updated": "2026-03-10 10:08:04"
+ },
+ "agcapi-gamereservationexport-0000001111685212": {
+  "title": "获取预约的报表",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Reports API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "获取预约的报表"
+  ],
+  "group": "Reports API",
+  "platform": "android",
+  "updated": "2026-03-10 10:08:04"
+ },
+ "agcapi-activityawardexport-0000001158245071": {
+  "title": "获取给指定用户群发奖的报表",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Reports API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "获取给指定用户群发奖的报表"
+  ],
+  "group": "Reports API",
+  "platform": "android",
+  "updated": "2026-03-10 10:08:04"
+ },
+ "agcapi-addadkpexport-0000001111845102": {
+  "title": "获取新增和留存的报表",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Reports API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "获取新增和留存的报表"
+  ],
+  "group": "Reports API",
+  "platform": "android",
+  "updated": "2026-03-10 10:08:04"
+ },
+ "agcapi-iapexport-0000001158365061": {
+  "title": "获取应用内付费的报表",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Reports API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "获取应用内付费的报表"
+  ],
+  "group": "Reports API",
+  "platform": "android",
+  "updated": "2026-03-10 10:08:04"
+ },
+ "agcapi-orderanalysisexport-0000001111685214": {
+  "title": "获取付费下载的报表",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Reports API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "获取付费下载的报表"
+  ],
+  "group": "Reports API",
+  "platform": "android",
+  "updated": "2026-03-10 10:08:05"
+ },
+ "agcapi-orderdetailexport-0000001158245073": {
+  "title": "获取付费下载明细的报表",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Reports API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "获取付费下载明细的报表"
+  ],
+  "group": "Reports API",
+  "platform": "android",
+  "updated": "2026-03-10 10:08:05"
+ },
+ "agcapi-couponexport-0000001111845104": {
+  "title": "获取优惠券活动的报表",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Reports API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "获取优惠券活动的报表"
+  ],
+  "group": "Reports API",
+  "platform": "android",
+  "updated": "2026-03-10 10:08:05"
+ },
+ "agcapi-appdownloadfailexport-0000001158365063": {
+  "title": "获取安装失败数据的报表",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Reports API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "获取安装失败数据的报表"
+  ],
+  "group": "Reports API",
+  "platform": "android",
+  "updated": "2026-03-10 10:08:05"
+ },
+ "agcapi-fa-distribute_analysis_export-0000001690307352": {
+  "title": "获取元服务分发分析的报表文件",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Reports API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "获取元服务分发分析的报表文件"
+  ],
+  "group": "Reports API",
+  "platform": "android",
+  "updated": "2026-03-10 10:08:05"
+ },
+ "agcapi-fa-user_analysis_export-0000001738465949": {
+  "title": "获取元服务新增留存的报表文件",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Reports API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "获取元服务新增留存的报表文件"
+  ],
+  "group": "Reports API",
+  "platform": "android",
+  "updated": "2026-03-10 10:08:05"
+ },
+ "agcapi-fa-widget_analysis_export-0000001690467092": {
+  "title": "获取元服务卡片分析的报表文件",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Reports API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "获取元服务卡片分析的报表文件"
+  ],
+  "group": "Reports API",
+  "platform": "android",
+  "updated": "2026-03-10 10:08:05"
+ },
+ "agcapi-reportsapi-errorcode-0000001165183667": {
+  "title": "错误码",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Reports API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "错误码"
+  ],
+  "group": "Reports API",
+  "platform": "android",
+  "updated": "2026-03-10 10:08:05"
+ },
+ "agcapi-pmapi-0000001158245053": {
+  "title": "Project Management API",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Project Management API"
+  ],
+  "group": "Project Management API",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:02"
+ },
+ "agcapi-getteamlist-0000001158245075": {
+  "title": "获取团队列表",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Project Management API",
+   "获取团队列表"
+  ],
+  "group": "Project Management API",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:03"
+ },
+ "agcapi-appbriefinfo-0000001111845106": {
+  "title": "获取应用简略信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Project Management API",
+   "获取应用简略信息"
+  ],
+  "group": "Project Management API",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:04"
+ },
+ "agcapi-getconfigfile-0000001158365065": {
+  "title": "获取配置文件",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Project Management API",
+   "获取配置文件"
+  ],
+  "group": "Project Management API",
+  "platform": "common",
+  "updated": "2026-03-10 10:08:03"
+ },
+ "agcapi-addappfingerprint-0000001111685218": {
+  "title": "添加证书指纹",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Project Management API",
+   "添加证书指纹"
+  ],
+  "group": "Project Management API",
+  "platform": "common",
+  "updated": "2025-10-30 03:38:04"
+ },
+ "agcapi-queryappfingerprint-0000001158245077": {
+  "title": "查询证书指纹和AppSecret",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Project Management API",
+   "查询证书指纹和AppSecret"
+  ],
+  "group": "Project Management API",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:06"
+ },
+ "agcapi-queryservice-0000001111845108": {
+  "title": "查询服务开通状态",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Project Management API",
+   "查询服务开通状态"
+  ],
+  "group": "Project Management API",
+  "platform": "common",
+  "updated": "2026-03-10 10:08:03"
+ },
+ "agcapi-queryprojectdetail-0000001158365067": {
+  "title": "查询项目详情及项目下的应用",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Project Management API",
+   "查询项目详情及项目下的应用"
+  ],
+  "group": "Project Management API",
+  "platform": "common",
+  "updated": "2026-03-10 10:08:04"
+ },
+ "agcapi-queryprojectlist-0000001111685220": {
+  "title": "查询项目列表",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Project Management API",
+   "查询项目列表"
+  ],
+  "group": "Project Management API",
+  "platform": "common",
+  "updated": "2026-03-10 10:08:04"
+ },
+ "agcapi-pmapi-errorcode-0000001118183972": {
+  "title": "错误码",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Project Management API",
+   "错误码"
+  ],
+  "group": "Project Management API",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:07"
+ },
+ "agcapi-commentapi-0000001115868340": {
+  "title": "Comments API",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API"
+  ],
+  "group": "Comments API",
+  "platform": "common",
+  "updated": "2025-10-24 08:14:01"
+ },
+ "agcapi-comapi-harmonyos-0000002470067188": {
+  "title": "HarmonyOS 5.0及以上",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 5.0及以上"
+  ],
+  "group": "Comments API",
+  "platform": "harmonyos",
+  "updated": "2025-10-24 08:14:01"
+ },
+ "agcapi-comapi-getreviews-harmonyos-0000002470893976": {
+  "title": "查询应用评论列表",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 5.0及以上",
+   "查询应用评论列表"
+  ],
+  "group": "Comments API",
+  "platform": "harmonyos",
+  "updated": "2026-04-29 02:28:01"
+ },
+ "agcapi-com-getreviewinfo-harmonyos-0000002504053839": {
+  "title": "查询单个评论详情",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 5.0及以上",
+   "查询单个评论详情"
+  ],
+  "group": "Comments API",
+  "platform": "harmonyos",
+  "updated": "2026-04-29 02:28:01"
+ },
+ "agcapi-com-reviewreply-harmonyos-0000002471053974": {
+  "title": "回复评论和回复",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 5.0及以上",
+   "回复评论和回复"
+  ],
+  "group": "Comments API",
+  "platform": "harmonyos",
+  "updated": "2026-07-29 06:54:02"
+ },
+ "agcapi-com-rating-harmonyos-0000002503933921": {
+  "title": "查询应用评分列表",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 5.0及以上",
+   "查询应用评分列表"
+  ],
+  "group": "Comments API",
+  "platform": "harmonyos",
+  "updated": "2026-04-29 02:28:01"
+ },
+ "agcapi-comment-data-harmonyos-0000002470893978": {
+  "title": "数据模型",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 5.0及以上",
+   "数据模型"
+  ],
+  "group": "Comments API",
+  "platform": "harmonyos",
+  "updated": "2025-10-24 08:14:01"
+ },
+ "agcapi-comment-apprating-0000002504053841": {
+  "title": "AppRating",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "AppRating"
+  ],
+  "group": "Comments API",
+  "platform": "harmonyos",
+  "updated": "2025-10-24 08:14:01"
+ },
+ "agcapi-comment-ratingstat-0000002471053976": {
+  "title": "RatingStat",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "RatingStat"
+  ],
+  "group": "Comments API",
+  "platform": "harmonyos",
+  "updated": "2025-10-24 08:14:01"
+ },
+ "agcapi-comment-replyinfo-0000002503933923": {
+  "title": "ReplyInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "ReplyInfo"
+  ],
+  "group": "Comments API",
+  "platform": "harmonyos",
+  "updated": "2025-10-24 08:14:01"
+ },
+ "agcapi-comment-reviewinfo-0000002470893980": {
+  "title": "ReviewInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "ReviewInfo"
+  ],
+  "group": "Comments API",
+  "platform": "harmonyos",
+  "updated": "2025-10-24 08:14:01"
+ },
+ "agcapi-comment-returncode-harmonyos-0000002504053843": {
+  "title": "错误码",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 5.0及以上",
+   "错误码"
+  ],
+  "group": "Comments API",
+  "platform": "harmonyos",
+  "updated": "2025-10-24 08:14:01"
+ },
+ "agcapi-comment-api-0000002502827151": {
+  "title": "HarmonyOS 3.1/4.0及以下、Android",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 3.1/4.0及以下、Android"
+  ],
+  "group": "Comments API",
+  "platform": "android",
+  "updated": "2025-10-24 08:14:01"
+ },
+ "agcapi-comapi-getreviews-0000001162468139": {
+  "title": "查询评论列表",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "查询评论列表"
+  ],
+  "group": "Comments API",
+  "platform": "android",
+  "updated": "2025-10-24 08:14:01"
+ },
+ "agcapi-com-getreviewinfo-0000001116028248": {
+  "title": "查询单个评论详情",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "查询单个评论详情"
+  ],
+  "group": "Comments API",
+  "platform": "android",
+  "updated": "2025-10-24 08:14:01"
+ },
+ "agcapi-com-reviewreply-0000001162548117": {
+  "title": "回复评论和回复",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "回复评论和回复"
+  ],
+  "group": "Comments API",
+  "platform": "android",
+  "updated": "2025-10-24 08:14:01"
+ },
+ "agcapi-com-rating-0000001133889426": {
+  "title": "查询应用评分",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "查询应用评分"
+  ],
+  "group": "Comments API",
+  "platform": "android",
+  "updated": "2025-10-24 08:14:01"
+ },
+ "agcapi-comment-data-0000001115868342": {
+  "title": "数据模型",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型"
+  ],
+  "group": "Comments API",
+  "platform": "android",
+  "updated": "2025-10-24 08:14:01"
+ },
+ "agcapi-com-cbresult-0000001162468141": {
+  "title": "CommentBaseResult",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "CommentBaseResult"
+  ],
+  "group": "Comments API",
+  "platform": "android",
+  "updated": "2025-10-24 08:14:01"
+ },
+ "agcapi-com-gdrrdata-0000001116028250": {
+  "title": "GetDevReviewRspData",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "GetDevReviewRspData"
+  ],
+  "group": "Comments API",
+  "platform": "android",
+  "updated": "2025-10-24 08:14:01"
+ },
+ "agcapi-com-oreplyinfo-0000001162548119": {
+  "title": "OpenReplyInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "OpenReplyInfo"
+  ],
+  "group": "Comments API",
+  "platform": "android",
+  "updated": "2025-10-24 08:14:01"
+ },
+ "agcapi-com-oreviewinfo-0000001115868344": {
+  "title": "OpenReviewInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "OpenReviewInfo"
+  ],
+  "group": "Comments API",
+  "platform": "android",
+  "updated": "2025-10-24 08:14:01"
+ },
+ "agcapi-com-qdrrdata-0000001162468143": {
+  "title": "QueryDevReviewsRspData",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "QueryDevReviewsRspData"
+  ],
+  "group": "Comments API",
+  "platform": "android",
+  "updated": "2025-10-24 08:14:02"
+ },
+ "agcapi-com-gdarrdata-0000001134972868": {
+  "title": "GetDevAppRatingRspData",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "GetDevAppRatingRspData"
+  ],
+  "group": "Comments API",
+  "platform": "android",
+  "updated": "2025-10-24 08:14:02"
+ },
+ "agcapi-com-openratingstat-0000001180812511": {
+  "title": "OpenRatingStat",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "OpenRatingStat"
+  ],
+  "group": "Comments API",
+  "platform": "android",
+  "updated": "2025-10-24 08:14:02"
+ },
+ "agcapi-com-openrating-0000001180932437": {
+  "title": "OpenRating",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "OpenRating"
+  ],
+  "group": "Comments API",
+  "platform": "android",
+  "updated": "2025-10-24 08:14:02"
+ },
+ "agcapi-comment-returncode-0000001116028252": {
+  "title": "错误码",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "Comments API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "错误码"
+  ],
+  "group": "Comments API",
+  "platform": "android",
+  "updated": "2025-10-24 08:14:01"
+ },
+ "agcapi-pmsapi-0000001162548121": {
+  "title": "PMS API",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API"
+  ],
+  "group": "PMS API",
+  "platform": "common",
+  "updated": "2025-11-03 01:58:06"
+ },
+ "agcapi-pmsapi-android-0000002131508240": {
+  "title": "HarmonyOS 3.1/4.0及以下、Android",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-09-15 03:10:02"
+ },
+ "agcapi-addproduct-android-0000002171407001": {
+  "title": "创建商品",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "创建商品"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:08"
+ },
+ "agcapi-batchaddproduct-android-0000002171288605": {
+  "title": "批量创建商品",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "批量创建商品"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-14 01:12:02"
+ },
+ "agcapi-addproductgroup-android-0000002135929308": {
+  "title": "创建商品订阅分组信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "创建商品订阅分组信息"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:09"
+ },
+ "agcapi-updateproductgroup-android-0000002136087400": {
+  "title": "更新商品订阅分组信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "更新商品订阅分组信息"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:10"
+ },
+ "agcapi-getproductgroup-android-0000002171407009": {
+  "title": "查询商品订阅分组信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "查询商品订阅分组信息"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-11-21 05:50:02"
+ },
+ "agcapi-getproductinfo-android-0000002171288609": {
+  "title": "查询商品详情",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "查询商品详情"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:11"
+ },
+ "agcapi-bygetproductinfo-android-0000002135929316": {
+  "title": "按条件查询商品信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "按条件查询商品信息"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-11-21 05:50:03"
+ },
+ "agcapi-updateproduct-android-0000002136087404": {
+  "title": "更新商品信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "更新商品信息"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:12"
+ },
+ "agcapi-batchupdateproduct-android-0000002171407013": {
+  "title": "批量更新商品",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "批量更新商品"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:13"
+ },
+ "agcapi-batchactproduct-android-0000002171288617": {
+  "title": "批量激活商品",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "批量激活商品"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:13"
+ },
+ "agcapi-batchdeactproduct-android-0000002135929320": {
+  "title": "批量去激活商品",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "批量去激活商品"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:14"
+ },
+ "agcapi-isproductactive-android-0000002136087412": {
+  "title": "查询是否有在线商品",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "查询是否有在线商品"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:15"
+ },
+ "agcapi-addpromotion-android-0000002171407021": {
+  "title": "创建商品促销信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "创建商品促销信息"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:15"
+ },
+ "agcapi-updatepromotion-android-0000002171288621": {
+  "title": "更新商品促销信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "更新商品促销信息"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2026-02-11 01:34:02"
+ },
+ "agcapi-getpromotioninfo-android-0000002135929328": {
+  "title": "查询商品促销详情",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "查询商品促销详情"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:16"
+ },
+ "agcapi-bygetpromotioninfo-android-0000002136087416": {
+  "title": "按条件查询商品促销信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "按条件查询商品促销信息"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-11-21 05:50:03"
+ },
+ "agcapi-batchactpromotion-android-0000002171407025": {
+  "title": "批量上线商品促销活动",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "批量上线商品促销活动"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:16"
+ },
+ "agcapi-batchdeactpromotion-android-0000002171288629": {
+  "title": "批量下线商品促销活动",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "批量下线商品促销活动"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:17"
+ },
+ "agcapi-pms-data-android-0000002135929332": {
+  "title": "数据模型",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:17"
+ },
+ "agcapi-pms-cpriceinfo-android-0000002136087424": {
+  "title": "CountryPriceInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "CountryPriceInfo"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:18"
+ },
+ "agcapi-pms-dppriceinfo-android-0000002171407033": {
+  "title": "DefaultProductPriceInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "DefaultProductPriceInfo"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:18"
+ },
+ "agcapi-pms-errorresult-android-0000002171288633": {
+  "title": "ErrorResult",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "ErrorResult"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:18"
+ },
+ "agcapi-pms-pcheckinfo-android-0000002135929340": {
+  "title": "ProductCheckInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "ProductCheckInfo"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:18"
+ },
+ "agcapi-pms-pdetailinfo-android-0000002136087428": {
+  "title": "ProductDetailInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "ProductDetailInfo"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-11-21 05:50:03"
+ },
+ "agcapi-pms-pgroupinfo-android-0000002171407037": {
+  "title": "ProductGroupInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "ProductGroupInfo"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:18"
+ },
+ "agcapi-pms-productinfo-android-0000002171288637": {
+  "title": "ProductInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "ProductInfo"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-15 01:52:04"
+ },
+ "agcapi-pms-pimportinfo-android-0000002135929344": {
+  "title": "ProductImportInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "ProductImportInfo"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-15 01:52:04"
+ },
+ "agcapi-pms-pierrorinfo-android-0000002136087432": {
+  "title": "ProductImportErrorInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "ProductImportErrorInfo"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:18"
+ },
+ "agcapi-pms-pdlanguageinfo-android-0000002171407041": {
+  "title": "ProductLanguageInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "ProductLanguageInfo"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:18"
+ },
+ "agcapi-pms-ppdetailinfo-android-0000002171288641": {
+  "title": "ProductPromotionDetailInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "ProductPromotionDetailInfo"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-11-21 05:50:03"
+ },
+ "agcapi-pms-ppromotioninfo-android-0000002135929348": {
+  "title": "ProductPromotionInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "ProductPromotionInfo"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2026-02-11 01:34:02"
+ },
+ "agcapi-pms-ppromotion-android-0000002136087436": {
+  "title": "ProductPromotions",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "ProductPromotions"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2026-02-11 01:34:02"
+ },
+ "agcapi-pms-pqueryinfo-android-0000002171407045": {
+  "title": "ProductsQueryInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "ProductsQueryInfo"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-15 01:52:05"
+ },
+ "agcapi-pms-ppriceinfo-android-0000002171288645": {
+  "title": "ProductPriceInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "ProductPriceInfo"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:18"
+ },
+ "agcapi-pms-perrorinfo-android-0000002135929352": {
+  "title": "PromotionErrorInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "PromotionErrorInfo"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:18"
+ },
+ "agcapi-pms-promotioninfo-android-0000002136087440": {
+  "title": "PromotionInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "PromotionInfo"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-15 01:52:05"
+ },
+ "agcapi-pms-pintroduceinfo-android-0000002171407049": {
+  "title": "PromotionIntroductoryInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "PromotionIntroductoryInfo"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:19"
+ },
+ "agcapi-pms-ptlanguageinfo-android-0000002171288649": {
+  "title": "PromotionLanguageInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "PromotionLanguageInfo"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:19"
+ },
+ "agcapi-pms-ptpriceinfo-android-0000002135929356": {
+  "title": "PromotionPriceInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "PromotionPriceInfo"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-11-21 05:50:03"
+ },
+ "agcapi-pms-sgroupinfo-android-0000002136087444": {
+  "title": "SimpleGroupInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "数据模型",
+   "SimpleGroupInfo"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-06 10:02:19"
+ },
+ "agcapi-pms-returncode-android-0000002171407053": {
+  "title": "错误码",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 3.1/4.0及以下、Android",
+   "错误码"
+  ],
+  "group": "PMS API",
+  "platform": "android",
+  "updated": "2025-08-15 01:52:03"
+ },
+ "agcapi-pmsapi-harmonyosnext-0000002166747989": {
+  "title": "HarmonyOS 5.0及以上",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-14 01:12:01"
+ },
+ "agcapi-resourcemanage-harmonyosnext-0000002131361792": {
+  "title": "上传资源",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "上传资源"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-14 01:12:01"
+ },
+ "agcapi-addproduct-harmonyosnext-0000002131508844": {
+  "title": "创建商品",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "创建商品"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-14 01:12:02"
+ },
+ "agcapi-reviewproduct-harmonyosnext-0000002166681241": {
+  "title": "提交商品审核",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "提交商品审核"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-14 01:12:02"
+ },
+ "agcapi-batchaddproduct-harmonyosnext-0000002131350704": {
+  "title": "批量创建商品",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "批量创建商品"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-15 01:52:02"
+ },
+ "agcapi-addproductgroup-harmonyosnext-0000002166748605": {
+  "title": "创建商品订阅分组信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "创建商品订阅分组信息"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:11"
+ },
+ "agcapi-updateproductgroup-harmonyosnext-0000002166670137": {
+  "title": "更新商品订阅分组信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "更新商品订阅分组信息"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:11"
+ },
+ "agcapi-getproductgroup-harmonyosnext-0000002131508848": {
+  "title": "查询商品订阅分组信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "查询商品订阅分组信息"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-11-21 05:50:03"
+ },
+ "agcapi-levelgroup-harmonyosnext-0000002175107485": {
+  "title": "更新商品订阅分组等级信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "更新商品订阅分组等级信息"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:12"
+ },
+ "agcapi-getproductinfo-harmonyosnext-0000002131350708": {
+  "title": "查询商品详情",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "查询商品详情"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:13"
+ },
+ "agcapi-bygetproductinfo-harmonyosnext-0000002166748609": {
+  "title": "按条件查询商品信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "按条件查询商品信息"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-11-21 05:50:03"
+ },
+ "agcapi-updateproduct-harmonyosnext-0000002166670141": {
+  "title": "更新商品信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "更新商品信息"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:14"
+ },
+ "agcapi-batchupdateproduct-harmonyosnext-0000002131508852": {
+  "title": "批量更新商品",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "批量更新商品"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:15"
+ },
+ "agcapi-batchactproduct-harmonyosnext-0000002131350712": {
+  "title": "批量激活商品",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "批量激活商品"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-14 01:12:03"
+ },
+ "agcapi-batchdeactproduct-harmonyosnext-0000002166748613": {
+  "title": "批量去激活商品",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "批量去激活商品"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-14 01:12:03"
+ },
+ "agcapi-isproductactive-harmonyosnext-0000002166670145": {
+  "title": "查询是否有在线商品",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "查询是否有在线商品"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:16"
+ },
+ "agcapi-addpromotion-harmonyosnext-0000002131508856": {
+  "title": "创建商品促销信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "创建商品促销信息"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:16"
+ },
+ "agcapi-updatepromotion-harmonyosnext-0000002131350716": {
+  "title": "更新商品促销信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "更新商品促销信息"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:17"
+ },
+ "agcapi-getpromotioninfo-harmonyosnext-0000002166748617": {
+  "title": "查询商品促销详情",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "查询商品促销详情"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:17"
+ },
+ "agcapi-bygetpromotioninfo-harmonyosnext-0000002166670149": {
+  "title": "按条件查询商品促销信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "按条件查询商品促销信息"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-11-21 05:50:03"
+ },
+ "agcapi-batchactpromotion-harmonyosnext-0000002131508860": {
+  "title": "批量上线商品促销活动",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "批量上线商品促销活动"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:17"
+ },
+ "agcapi-batchdeactpromotion-harmonyosnext-0000002131350720": {
+  "title": "批量下线商品促销活动",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "批量下线商品促销活动"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:17"
+ },
+ "agcapi-basicapplication-harmonyosnext-0000002131519928": {
+  "title": "查询关联APP已有商品类型",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "查询关联APP已有商品类型"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-18 06:34:01"
+ },
+ "agcapi-pms-data-harmonyosnext-0000002166748621": {
+  "title": "数据模型",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:17"
+ },
+ "agcapi-pms-cpriceinfo-harmonyosnext-0000002166670153": {
+  "title": "CountryPriceInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "CountryPriceInfo"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:18"
+ },
+ "agcapi-pms-dppriceinfo-harmonyosnext-0000002131508864": {
+  "title": "DefaultProductPriceInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "DefaultProductPriceInfo"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:18"
+ },
+ "agcapi-pms-errorresult-harmonyosnext-0000002131350724": {
+  "title": "ErrorResult",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "ErrorResult"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:18"
+ },
+ "agcapi-pms-pcheckinfo-harmonyosnext-0000002166748625": {
+  "title": "ProductCheckInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "ProductCheckInfo"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:18"
+ },
+ "agcapi-pms-pdetailinfo-harmonyosnext-0000002166670157": {
+  "title": "ProductDetailInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "ProductDetailInfo"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-11-21 05:50:03"
+ },
+ "agcapi-pms-pgroupinfo-harmonyosnext-0000002131508868": {
+  "title": "ProductGroupInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "ProductGroupInfo"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:18"
+ },
+ "agcapi-pms-productinfo-harmonyosnext-0000002131350728": {
+  "title": "ProductInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "ProductInfo"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-15 01:52:04"
+ },
+ "agcapi-pms-pimportinfo-harmonyosnext-0000002166748629": {
+  "title": "ProductImportInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "ProductImportInfo"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-15 01:52:04"
+ },
+ "agcapi-pms-pierrorinfo-harmonyosnext-0000002166670161": {
+  "title": "ProductImportErrorInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "ProductImportErrorInfo"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:18"
+ },
+ "agcapi-pms-pdlanguageinfo-harmonyosnext-0000002131508872": {
+  "title": "ProductLanguageInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "ProductLanguageInfo"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:18"
+ },
+ "agcapi-pms-ppdetailinfo-harmonyosnext-0000002131350732": {
+  "title": "ProductPromotionDetailInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "ProductPromotionDetailInfo"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-15 01:52:04"
+ },
+ "agcapi-pms-ppromotioninfo-harmonyosnext-0000002166748633": {
+  "title": "ProductPromotionInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "ProductPromotionInfo"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-11-21 05:50:03"
+ },
+ "agcapi-pms-ppromotion-harmonyosnext-0000002166670165": {
+  "title": "ProductPromotions",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "ProductPromotions"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-15 01:52:05"
+ },
+ "agcapi-pms-pqueryinfo-harmonyosnext-0000002131508876": {
+  "title": "ProductsQueryInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "ProductsQueryInfo"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-15 01:52:05"
+ },
+ "agcapi-pms-ppriceinfo-harmonyosnext-0000002131350736": {
+  "title": "ProductPriceInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "ProductPriceInfo"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:18"
+ },
+ "agcapi-pms-perrorinfo-harmonyosnext-0000002166748637": {
+  "title": "PromotionErrorInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "PromotionErrorInfo"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:19"
+ },
+ "agcapi-pms-promotioninfo-harmonyosnext-0000002166670169": {
+  "title": "PromotionInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "PromotionInfo"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-11-03 01:58:06"
+ },
+ "agcapi-pms-pintroduceinfo-harmonyosnext-0000002131508880": {
+  "title": "PromotionIntroductoryInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "PromotionIntroductoryInfo"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:19"
+ },
+ "agcapi-pms-ptlanguageinfo-harmonyosnext-0000002131350740": {
+  "title": "PromotionLanguageInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "PromotionLanguageInfo"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:19"
+ },
+ "agcapi-pms-ptpriceinfo-harmonyosnext-0000002166748641": {
+  "title": "PromotionPriceInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "PromotionPriceInfo"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-11-21 05:50:03"
+ },
+ "agcapi-pms-sgroupinfo-harmonyosnext-0000002166670173": {
+  "title": "SimpleGroupInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "SimpleGroupInfo"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:19"
+ },
+ "agcapi-pms-pglevelinfo-harmonyosnext-0000002175237277": {
+  "title": "ProductGroupLevelInfo",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "数据模型",
+   "ProductGroupLevelInfo"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-06 10:02:19"
+ },
+ "agcapi-pms-returncode-harmonyosnext-0000002131508884": {
+  "title": "错误码",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "PMS API",
+   "HarmonyOS 5.0及以上",
+   "错误码"
+  ],
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "updated": "2025-08-15 01:52:04"
+ },
+ "agcapi-playing-api-0000001985465934": {
+  "title": "在玩服务",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "在玩服务"
+  ],
+  "group": "在玩服务",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:02"
+ },
+ "agcapi-basic-info-0000002038975322": {
+  "title": "批量查询玩家基本信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "在玩服务",
+   "批量查询玩家基本信息"
+  ],
+  "group": "在玩服务",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:03"
+ },
+ "agcapi-role-info-0000002075016173": {
+  "title": "批量查询玩家角色信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "在玩服务",
+   "批量查询玩家角色信息"
+  ],
+  "group": "在玩服务",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:04"
+ },
+ "agcapi-resources-0000002022105725": {
+  "title": "上传/下架游戏资源",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "在玩服务",
+   "上传/下架游戏资源"
+  ],
+  "group": "在玩服务",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:05"
+ },
+ "agcapi-summary-0000002022225249": {
+  "title": "查询游戏概要信息",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "在玩服务",
+   "查询游戏概要信息"
+  ],
+  "group": "在玩服务",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:06"
+ },
+ "agcapi-label-0000001985625670": {
+  "title": "查询战绩筛选标签",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "在玩服务",
+   "查询战绩筛选标签"
+  ],
+  "group": "在玩服务",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:06"
+ },
+ "agcapi-scores-0000001985465938": {
+  "title": "分页查询玩家战绩",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "在玩服务",
+   "分页查询玩家战绩"
+  ],
+  "group": "在玩服务",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:07"
+ },
+ "agcapi-asset-summary-0000002022105729": {
+  "title": "查询资产概要",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "在玩服务",
+   "查询资产概要"
+  ],
+  "group": "在玩服务",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:07"
+ },
+ "agcapi-asset-details-0000002022225253": {
+  "title": "查询资产明细",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "在玩服务",
+   "查询资产明细"
+  ],
+  "group": "在玩服务",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:07"
+ },
+ "agcapi-propapi-0000002355134701": {
+  "title": "游戏道具商城",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "游戏道具商城"
+  ],
+  "group": "游戏道具商城",
+  "platform": "common",
+  "updated": "2025-12-16 01:26:03"
+ },
+ "agcapi-propapi-getroleinfo-0000002355255377": {
+  "title": "查询玩家区服角色",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "游戏道具商城",
+   "查询玩家区服角色"
+  ],
+  "group": "游戏道具商城",
+  "platform": "common",
+  "updated": "2026-02-11 01:34:02"
+ },
+ "agcapi-propapi-order-0000002321296666": {
+  "title": "下单",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "游戏道具商城",
+   "下单"
+  ],
+  "group": "游戏道具商城",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:05"
+ },
+ "agcapi-res-pkg-preload-0000002362394629": {
+  "title": "资源包预下载",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "资源包预下载"
+  ],
+  "group": "资源包预下载",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:02"
+ },
+ "agcapi-respackapi-addversion-0000002328396224": {
+  "title": "新增资源包版本",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "资源包预下载",
+   "新增资源包版本"
+  ],
+  "group": "资源包预下载",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:04"
+ },
+ "agcapi-respackapi-uploadapplyfor-0000002328236376": {
+  "title": "资源包文件上传申请",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "资源包预下载",
+   "资源包文件上传申请"
+  ],
+  "group": "资源包预下载",
+  "platform": "common",
+  "updated": "2026-02-12 08:00:03"
+ },
+ "agcapi-respackapi-uploadconfirm-0000002362394641": {
+  "title": "资源包文件上传确认",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "资源包预下载",
+   "资源包文件上传确认"
+  ],
+  "group": "资源包预下载",
+  "platform": "common",
+  "updated": "2025-08-08 06:18:01"
+ },
+ "agcapi-respackapi-modifyversion-0000002328236372": {
+  "title": "修改资源包版本",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "资源包预下载",
+   "修改资源包版本"
+  ],
+  "group": "资源包预下载",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:06"
+ },
+ "agcapi-respackapi-releaseversion-0000002362394637": {
+  "title": "发布资源包版本",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "资源包预下载",
+   "发布资源包版本"
+  ],
+  "group": "资源包预下载",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:06"
+ },
+ "agcapi-respackapi-deletefile-0000002328396228": {
+  "title": "删除资源包文件",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "资源包预下载",
+   "删除资源包文件"
+  ],
+  "group": "资源包预下载",
+  "platform": "common",
+  "updated": "2025-11-20 03:58:03"
+ },
+ "agcapi-respackapi-getversion-0000002362274745": {
+  "title": "查询资源包版本",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "资源包预下载",
+   "查询资源包版本"
+  ],
+  "group": "资源包预下载",
+  "platform": "common",
+  "updated": "2026-04-27 01:44:03"
+ },
+ "agcapi-respackapi-queryfile-0000002362274749": {
+  "title": "查询资源包文件",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "资源包预下载",
+   "查询资源包文件"
+  ],
+  "group": "资源包预下载",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:07"
+ },
+ "agcapi-respackapi-returncode-0000002328236396": {
+  "title": "错误码",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "资源包预下载",
+   "错误码"
+  ],
+  "group": "资源包预下载",
+  "platform": "common",
+  "updated": "2026-02-12 08:00:03"
+ },
+ "agcapi-appendix-0000001111845084": {
+  "title": "附录",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "附录"
+  ],
+  "group": "附录",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:02"
+ },
+ "agcapi-reference-langtype-0000001158245079": {
+  "title": "语言类型",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "附录",
+   "语言类型"
+  ],
+  "group": "附录",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:04"
+ },
+ "agcapi-reference-countrycode-0000001111845110": {
+  "title": "国家码",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "附录",
+   "国家码"
+  ],
+  "group": "附录",
+  "platform": "common",
+  "updated": "2025-11-10 09:02:03"
+ },
+ "agcapi-reference-apptype-0000001158365069": {
+  "title": "应用游戏分类",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "附录",
+   "应用游戏分类"
+  ],
+  "group": "附录",
+  "platform": "common",
+  "updated": "2026-06-03 06:20:05"
+ },
+ "agcapi-reference-applevel-0000001111685222": {
+  "title": "应用分级",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "附录",
+   "应用分级"
+  ],
+  "group": "附录",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:06"
+ },
+ "agcapi-gettestkey-0000001158245081": {
+  "title": "获取验签公钥",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "附录",
+   "获取验签公钥"
+  ],
+  "group": "附录",
+  "platform": "common",
+  "updated": "2025-08-06 10:02:06"
+ },
+ "agcapi-reference-pricechange-0000001111845112": {
+  "title": "价格换算规则",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "附录",
+   "价格换算规则"
+  ],
+  "group": "附录",
+  "platform": "common",
+  "updated": "2025-10-31 06:14:02"
+ },
+ "agcapi-file-requirement-0000001158365071": {
+  "title": "应用文件要求",
+  "catalog": "AppGallery-connect-References",
+  "path": [
+   "Connect API",
+   "附录",
+   "应用文件要求"
+  ],
+  "group": "附录",
+  "platform": "common",
+  "updated": "2026-03-16 07:58:02"
+ },
+ "agc-help-connect-api-0000002236015554": {
+  "title": "AppGallery Connect API",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API"
+  ],
+  "group": "Auth",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 08:59:26"
+ },
+ "agc-help-connect-api-introduction-0000002270974725": {
+  "title": "业务介绍",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "业务介绍"
+  ],
+  "group": "Auth",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 08:59:45"
+ },
+ "agc-help-connect-api-obtain-server-auth-0000002271134661": {
+  "title": "获取服务端授权",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "获取服务端授权"
+  ],
+  "group": "Auth",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 08:59:46"
+ },
+ "agc-help-test-api-guide-0000002236015562": {
+  "title": "Testing API指南",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API指南"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 08:59:49"
+ },
+ "agc-help-test-api-reference-0000002271000709": {
+  "title": "Testing API参考",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-10 07:08:29"
+ },
+ "agc-help-test-api-add-test-version-0000002236041526": {
+  "title": "新建测试版本",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "新建测试版本"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:17"
+ },
+ "agc-help-test-api-get-detect-task-0000002525033189": {
+  "title": "查询上架自检报告信息",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "查询上架自检报告信息"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:19"
+ },
+ "agc-help-test-api-add-test-package-0000002236201330": {
+  "title": "添加软件包",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "添加软件包"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:22"
+ },
+ "agc-help-test-api-modify-test-version-0000002271160657": {
+  "title": "更新测试版本",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "更新测试版本"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-04 09:22:39"
+ },
+ "agc-help-test-api-release-test-version-0000002271000713": {
+  "title": "更新测试生效版本",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "更新测试生效版本"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-04 09:22:39"
+ },
+ "agc-help-test-api-update-test-version-opentest-0000002236041530": {
+  "title": "更新有效期内的测试版本信息",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "更新有效期内的测试版本信息"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-04 09:22:39"
+ },
+ "agc-help-test-api-submit-test-version-0000002236201334": {
+  "title": "提交测试版本",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "提交测试版本"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-04 09:22:39"
+ },
+ "agc-help-test-api-add-test-group-0000002271160661": {
+  "title": "新增测试群组",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "新增测试群组"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-04 09:22:40"
+ },
+ "agc-help-test-api-get-test-grouplist-0000002271000717": {
+  "title": "查询测试群组列表",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "查询测试群组列表"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-04 09:22:40"
+ },
+ "agc-help-test-api-delete-test-group-0000002236041534": {
+  "title": "删除测试群组",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "删除测试群组"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-04 09:22:40"
+ },
+ "agc-help-test-api-edit-test-group-0000002634718664": {
+  "title": "修改测试群组",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "修改测试群组"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-10 07:08:29"
+ },
+ "agc-help-test-api-query-test-user-0000002664997773": {
+  "title": "查询测试群组成员",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "查询测试群组成员"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-10 07:08:29"
+ },
+ "agc-help-test-api-add-test-group-user-0000002236201338": {
+  "title": "新增测试群组成员",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "新增测试群组成员"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-04 09:22:40"
+ },
+ "agc-help-test-api-query-test-group-user-0000002271160665": {
+  "title": "查询测试群组成员",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "查询测试群组成员"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-04 09:22:40"
+ },
+ "agc-help-test-api-delete-test-group-user-0000002271000721": {
+  "title": "删除测试群组成员",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "删除测试群组成员"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-04 09:22:40"
+ },
+ "agc-help-test-api-post-test-notify-0000002236041538": {
+  "title": "发送邀请测试通知",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "发送邀请测试通知"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-04 09:22:40"
+ },
+ "agc-help-test-api-add-invite-code-0000002236201342": {
+  "title": "生成邀请码",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "生成邀请码"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-10 07:08:29"
+ },
+ "agc-help-test-api-delete-invite-code-0000002634878570": {
+  "title": "删除邀请码",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "删除邀请码"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-10 07:08:29"
+ },
+ "agc-help-test-api-get-invite-code-0000002271160669": {
+  "title": "查询测试群组邀请码",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "查询测试群组邀请码"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-10 07:08:29"
+ },
+ "agc-help-test-api-stop-invite-code-0000002271000725": {
+  "title": "停止邀请码",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "停止邀请码"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-10 07:08:29"
+ },
+ "agc-help-test-api-stop-test-version-0000002236041542": {
+  "title": "停止测试版本",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "停止测试版本"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:36"
+ },
+ "agc-help-test-api-delete-test-version-0000002236201346": {
+  "title": "删除测试版本",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "删除测试版本"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:36"
+ },
+ "agc-help-test-api-create-open-test-link-0000002665117715": {
+  "title": "创建公开链接",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "创建公开链接"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-10 07:08:30"
+ },
+ "agc-help-test-api-edit-open-test-link-0000002634718666": {
+  "title": "修改公开链接",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "修改公开链接"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-10 07:08:30"
+ },
+ "agc-help-test-api-query-open-test-link-0000002664997775": {
+  "title": "查询公开链接",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "查询公开链接"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-10 07:08:30"
+ },
+ "agc-help-test-api-query-feedback-dimension-0000002634878572": {
+  "title": "查询测试问题反馈维度",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "查询测试问题反馈维度"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-10 07:08:30"
+ },
+ "agc-help-test-api-query-feedback-0000002665117717": {
+  "title": "查询测试问题反馈",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "查询测试问题反馈"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-10 07:08:30"
+ },
+ "agc-help-test-api-delete-feedback-0000002634718668": {
+  "title": "删除测试问题反馈",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "删除测试问题反馈"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-10 07:08:30"
+ },
+ "agc-help-test-api-data-0000002237336484": {
+  "title": "数据模型",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "数据模型"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-10 07:08:30"
+ },
+ "agc-help-test-api-data-applanguage-0000002237496312": {
+  "title": "AppLanguage",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "数据模型",
+   "AppLanguage"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:37"
+ },
+ "agc-help-test-api-data-appreviewcontact-0000002527365043": {
+  "title": "AppReviewContact",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "数据模型",
+   "AppReviewContact"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:41"
+ },
+ "agc-help-test-api-data-connectret-0000002272455641": {
+  "title": "ConnectRet",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "数据模型",
+   "ConnectRet"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:44"
+ },
+ "agc-help-test-api-data-devicematerial-0000002237336492": {
+  "title": "DeviceMaterial",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "数据模型",
+   "DeviceMaterial"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:46"
+ },
+ "agc-help-test-api-data-devicetypeinfo-0000002237336488": {
+  "title": "DeviceTypeInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "数据模型",
+   "DeviceTypeInfo"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:50"
+ },
+ "agc-help-test-api-data-fileinfo-0000002272575549": {
+  "title": "FileInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "数据模型",
+   "FileInfo"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:51"
+ },
+ "agc-help-test-api-data-groupinfo-0000002272575557": {
+  "title": "GroupInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "数据模型",
+   "GroupInfo"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-04 09:22:41"
+ },
+ "agc-help-test-api-data-invitationcodeinfo-0000002237496324": {
+  "title": "InvitationCodeInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "数据模型",
+   "InvitationCodeInfo"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-test-api-data-opentestinfo-0000002272575553": {
+  "title": "OpenTestInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "数据模型",
+   "OpenTestInfo"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-test-api-data-packagepermissionintrovideo-0000002237496316": {
+  "title": "PackagePermissionIntroVideo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "数据模型",
+   "PackagePermissionIntroVideo"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-test-api-data-pageinfo-0000002272455653": {
+  "title": "PageInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "数据模型",
+   "PageInfo"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-test-api-data-phasedreleaseinfo-0000002237496320": {
+  "title": "PhasedReleaseInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "数据模型",
+   "PhasedReleaseInfo"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-test-api-data-simplegroupinfo-0000002237336496": {
+  "title": "SimpleGroupInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "数据模型",
+   "SimpleGroupInfo"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-04 09:22:41"
+ },
+ "agc-help-test-api-data-testtaskinfo-0000002272455649": {
+  "title": "TestTaskInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "数据模型",
+   "TestTaskInfo"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-04 09:22:41"
+ },
+ "agc-help-test-api-data-testerinfo-0000002272575561": {
+  "title": "TesterInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "数据模型",
+   "TesterInfo"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-04 09:22:41"
+ },
+ "agc-help-test-api-data-versionextinfo-0000002272455645": {
+  "title": "VersionExtInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "数据模型",
+   "VersionExtInfo"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-versionvocreq-0000002527368597": {
+  "title": "VersionVocReq",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "数据模型",
+   "VersionVocReq"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-deletefeedbackrequest-0000002671009673": {
+  "title": "deleteFeedbackRequest",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "数据模型",
+   "deleteFeedbackRequest"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-10 07:08:30"
+ },
+ "agc-help-publish-api-delfeedbackinfos-0000002641014324": {
+  "title": "delFeedBackInfos",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "数据模型",
+   "delFeedBackInfos"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-10 07:08:30"
+ },
+ "agc-help-publish-api-feedbacklistrequest-0000002671389861": {
+  "title": "feedbackListRequest",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "数据模型",
+   "feedbackListRequest"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-08-10 07:08:30"
+ },
+ "agc-help-test-api-errorcode-0000002356508845": {
+  "title": "错误码",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Testing API参考",
+   "错误码"
+  ],
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:36"
+ },
+ "agc-help-upload-api-guide-0000002271160549": {
+  "title": "Upload Management API指南",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Upload Management API指南"
+  ],
+  "group": "Upload Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:02"
+ },
+ "agc-help-upload-api-reference-0000002236041486": {
+  "title": "Upload Management API参考",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Upload Management API参考"
+  ],
+  "group": "Upload Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:04"
+ },
+ "agc-help-upload-api-upload-url-0000002236201294": {
+  "title": "获取文件上传地址",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Upload Management API参考",
+   "获取文件上传地址"
+  ],
+  "group": "Upload Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:17"
+ },
+ "agc-help-upload-api-upload-file-0000002271160621": {
+  "title": "上传文件",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Upload Management API参考",
+   "上传文件"
+  ],
+  "group": "Upload Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:19"
+ },
+ "agc-help-upload-api-obbfile-init-0000002271000677": {
+  "title": "分片上传初始化",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Upload Management API参考",
+   "分片上传初始化"
+  ],
+  "group": "Upload Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:22"
+ },
+ "agc-help-upload-api-obbfile-uploadurl-0000002236041490": {
+  "title": "获取分片上传地址",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Upload Management API参考",
+   "获取分片上传地址"
+  ],
+  "group": "Upload Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:26"
+ },
+ "agc-help-upload-api-obbfile-upload-0000002236201298": {
+  "title": "上传分片实体",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Upload Management API参考",
+   "上传分片实体"
+  ],
+  "group": "Upload Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:28"
+ },
+ "agc-help-upload-api-obbfile-compose-0000002271160625": {
+  "title": "合并分片",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Upload Management API参考",
+   "合并分片"
+  ],
+  "group": "Upload Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:29"
+ },
+ "agc-help-upload-api-data-0000002272457913": {
+  "title": "数据模型",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Upload Management API参考",
+   "数据模型"
+  ],
+  "group": "Upload Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:30"
+ },
+ "agc-help-upload-api-data-commonurlinfo-0000002272577809": {
+  "title": "CommonUrlInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Upload Management API参考",
+   "数据模型",
+   "CommonUrlInfo"
+  ],
+  "group": "Upload Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:37"
+ },
+ "agc-help-upload-api-data-connectret-0000002273607369": {
+  "title": "ConnectRet",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Upload Management API参考",
+   "数据模型",
+   "ConnectRet"
+  ],
+  "group": "Upload Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:41"
+ },
+ "agc-help-upload-api-data-filepartcomposeinfo-0000002272457917": {
+  "title": "FilePartComposeInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Upload Management API参考",
+   "数据模型",
+   "FilePartComposeInfo"
+  ],
+  "group": "Upload Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:44"
+ },
+ "agc-help-upload-api-data-filepartinfo-0000002237498540": {
+  "title": "FilePartInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Upload Management API参考",
+   "数据模型",
+   "FilePartInfo"
+  ],
+  "group": "Upload Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:46"
+ },
+ "agc-help-upload-api-data-filepartuploadinfo-0000002237338748": {
+  "title": "FilePartUploadInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Upload Management API参考",
+   "数据模型",
+   "FilePartUploadInfo"
+  ],
+  "group": "Upload Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:50"
+ },
+ "agc-help-upload-api-errorcode-0000002271000681": {
+  "title": "错误码",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Upload Management API参考",
+   "错误码"
+  ],
+  "group": "Upload Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:32"
+ },
+ "agc-help-publish-api-guide-0000002271134665": {
+  "title": "Publishing API指南",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API指南"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-09-04 02:32:15"
+ },
+ "agc-help-publish-api-reference-0000002271160565": {
+  "title": "Publishing API参考",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-09-04 02:32:15"
+ },
+ "agc-help-provision-api-create-appid-0000002526543939": {
+  "title": "创建APP ID",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "创建APP ID"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-09-04 02:32:15"
+ },
+ "agc-help-publish-api-appid-list-0000002271000617": {
+  "title": "查询应用包名对应的appid",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "查询应用包名对应的appid"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:18"
+ },
+ "agc-help-publish-api-teamid-member-list-0000002679253743": {
+  "title": "查询团队账号下的成员角色列表",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "查询团队账号下的成员角色列表"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-07-31 02:52:03"
+ },
+ "agc-help-publish-api-appinfo-query-0000002236041422": {
+  "title": "查询应用信息",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "查询应用信息"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-07-31 02:52:03"
+ },
+ "agc-help-publish-api-appinfo-update-0000002236201246": {
+  "title": "更新应用基本信息",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "更新应用基本信息"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:22"
+ },
+ "agc-help-publish-api-language-info-update-0000002271160569": {
+  "title": "更新应用语言信息",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "更新应用语言信息"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:26"
+ },
+ "agc-help-publish-api-language-info-delete-0000002271000621": {
+  "title": "删除应用语言信息",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "删除应用语言信息"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:28"
+ },
+ "agc-help-publish-api-app-file-info-update-0000002236041430": {
+  "title": "更新应用文件信息",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "更新应用文件信息"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:29"
+ },
+ "agc-help-publish-api-app-package-info-update-0000002236201250": {
+  "title": "更新应用软件包信息",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "更新应用软件包信息"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:30"
+ },
+ "agc-help-publish-api-update-release-time-0000002271160573": {
+  "title": "更新版本上架时间",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "更新版本上架时间"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:32"
+ },
+ "agc-help-publish-api-phased-release-0000002271000625": {
+  "title": "更新分阶段发布",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "更新分阶段发布"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:33"
+ },
+ "agc-help-publish-api-query-package-info-0000002328848469": {
+  "title": "查询应用软件包信息",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "查询应用软件包信息"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:33"
+ },
+ "agc-help-publish-api-query-compile-status-0000002236041434": {
+  "title": "查询软件包编译状态",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "查询软件包编译状态"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:33"
+ },
+ "agc-help-publish-api-query-brief-info-list-0000002236201254": {
+  "title": "查询应用所有版本类型的版本列表",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "查询应用所有版本类型的版本列表"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-07-31 02:52:03"
+ },
+ "agc-help-publish-api-post-app-version-voc-0000002495233986": {
+  "title": "查询应用未处理的问题工单",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "查询应用未处理的问题工单"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:34"
+ },
+ "agc-help-publish-api-query-tag-qual-dependent-0000002271160577": {
+  "title": "查询需要上传的资质文件信息",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "查询需要上传的资质文件信息"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:34"
+ },
+ "agc-help-publish-api-post-qualification-review-0000002271000629": {
+  "title": "提交资质审核任务",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "提交资质审核任务"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:34"
+ },
+ "agc-help-publish-api-get-qualification-review-0000002236041438": {
+  "title": "查询资质审核任务详情",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "查询资质审核任务详情"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:35"
+ },
+ "agc-help-publish-api-put-qualification-review-0000002422530746": {
+  "title": "修改资质审核任务",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "修改资质审核任务"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:35"
+ },
+ "agc-help-publish-api-cancel-qualification-review-0000002236201258": {
+  "title": "撤销资质审核任务",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "撤销资质审核任务"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:36"
+ },
+ "agc-help-publish-api-delete-qualification-review-0000002526538788": {
+  "title": "删除资质审核任务",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "删除资质审核任务"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:36"
+ },
+ "agc-help-publish-api-create-user-agreement-0000002271160581": {
+  "title": "新建用户协议",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "新建用户协议"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:36"
+ },
+ "agc-help-publish-api-query-user-agreement-0000002236041442": {
+  "title": "查询用户协议列表",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "查询用户协议列表"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:36"
+ },
+ "agc-help-publish-api-update-user-agreement-0000002294845626": {
+  "title": "更新用户协议",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "更新用户协议"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:36"
+ },
+ "agc-help-publish-api-put-privacy-agreement-0000002271000633": {
+  "title": "提交隐私政策协议",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "提交隐私政策协议"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:36"
+ },
+ "agc-help-publish-api-query-privacy-agreement-0000002328924925": {
+  "title": "查询隐私政策协议列表",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "查询隐私政策协议列表"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:37"
+ },
+ "agc-help-publish-api-update-privacy-agreement-0000002328805169": {
+  "title": "更新隐私政策协议",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "更新隐私政策协议"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:37"
+ },
+ "agc-help-publish-api-post-app-age-rating-0000002236201262": {
+  "title": "申请年龄分级",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "申请年龄分级"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:37"
+ },
+ "agc-help-publish-api-app-submit-0000002271160585": {
+  "title": "提交发布",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "提交发布"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:37"
+ },
+ "agc-help-publish-api-on-shelf-cancel-0000002271000637": {
+  "title": "撤销审核",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "撤销审核"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:37"
+ },
+ "agc-help-publish-api-app-shelf-off-0000002236041450": {
+  "title": "下架应用",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "下架应用"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-07-30 06:08:00"
+ },
+ "agc-help-publish-api-data-0000002236201266": {
+  "title": "数据模型",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-07-31 02:52:03"
+ },
+ "agc-help-publish-api-data-aclpermission-0000002271160593": {
+  "title": "ACLPermission",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "ACLPermission"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:37"
+ },
+ "agc-help-publish-api-data-adsinfo-0000002295005298": {
+  "title": "AdsInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "AdsInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:41"
+ },
+ "agc-help-publish-api-data-agreement-user-0000002271160613": {
+  "title": "Agreement（用户协议）",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "Agreement（用户协议）"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:44"
+ },
+ "agc-help-publish-api-data-agreement-privacy-0000002295005286": {
+  "title": "Agreement（隐私政策协议）",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "Agreement（隐私政策协议）"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:46"
+ },
+ "agc-help-publish-api-data-agreementbaseinfo-user-0000002236201290": {
+  "title": "AgreementBaseInfo（用户协议）",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "AgreementBaseInfo（用户协议）"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:50"
+ },
+ "publish-api-agreementbaseinfo-privacy-0000002328924929": {
+  "title": "AgreementBaseInfo（隐私政策协议）",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "AgreementBaseInfo（隐私政策协议）"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:51"
+ },
+ "agc-help-publish-api-data-agreementinfo-user-0000002236041482": {
+  "title": "AgreementInfo（用户协议）",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "AgreementInfo（用户协议）"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-agreementinfo-privacy-0000002294845630": {
+  "title": "AgreementInfo（隐私政策协议）",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "AgreementInfo（隐私政策协议）"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-allpermission-0000002295046904": {
+  "title": "AllPermission",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "AllPermission"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-appinfo-0000002236041454": {
+  "title": "AppInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "AppInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-appreviewcontact-0000002505438989": {
+  "title": "AppReviewContact",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "AppReviewContact"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-auditinfo-0000002271000649": {
+  "title": "AuditInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "AuditInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-briefpackageinfo-0000002236041470": {
+  "title": "BriefPackageInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "BriefPackageInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-briefversioninfo-0000002271000657": {
+  "title": "BriefVersionInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "BriefVersionInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-07-31 02:52:03"
+ },
+ "agc-help-publish-api-data-connectret-0000002271160589": {
+  "title": "ConnectRet",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "ConnectRet"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-contactinfo-0000002328805225": {
+  "title": "ContactInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "ContactInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-contractobligationmode-0000002328924941": {
+  "title": "ContractObligationMode",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "ContractObligationMode"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-custinfo-0000002504067925": {
+  "title": "CustInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "CustInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-customchapter-0000002294845694": {
+  "title": "CustomChapter",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "CustomChapter"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-custominfo-0000002295005358": {
+  "title": "CustomInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "CustomInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-dataitem-0000002328924933": {
+  "title": "DataItem",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "DataItem"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-dependentqual-0000002271160605": {
+  "title": "DependentQual",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "DependentQual"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-dependentquallang-0000002271000661": {
+  "title": "DependentQualLang",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "DependentQualLang"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-devicematerial-0000002236201274": {
+  "title": "DeviceMaterial",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "DeviceMaterial"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "publish-api-devicemultipermissionreason-0000002294885664": {
+  "title": "DeviceMultiPermissionReason",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "DeviceMultiPermissionReason"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-devicepermission-0000002294845674": {
+  "title": "DevicePermission",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "DevicePermission"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-devicetypeinfo-0000002236201270": {
+  "title": "DeviceTypeInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "DeviceTypeInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-developerinfo-0000002649369326": {
+  "title": "DeveloperInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "DeveloperInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-07-31 02:52:03"
+ },
+ "agc-help-publish-api-data-extendinfo-0000002328924981": {
+  "title": "ExtendInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "ExtendInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-extfieldcustominfo-0000002328924997": {
+  "title": "ExtFieldCustomInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "ExtFieldCustomInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-fileinfo-0000002236041466": {
+  "title": "FileInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "FileInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-fullservicemode-0000002294845638": {
+  "title": "FullServiceMode",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "FullServiceMode"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-groupinfo-0000002678290865": {
+  "title": "GroupInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "GroupInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-07-31 02:52:03"
+ },
+ "agc-help-publish-api-data-infoaccess-0000002328805233": {
+  "title": "InfoAccess",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "InfoAccess"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-infocancel-0000002328924989": {
+  "title": "InfoCancel",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "InfoCancel"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-infodelete-0000002294845690": {
+  "title": "InfoDelete",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "InfoDelete"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-infomodify-0000002295005354": {
+  "title": "InfoModify",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "InfoModify"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-lang-0000002649209416": {
+  "title": "Lang",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "Lang"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-07-31 02:52:03"
+ },
+ "agc-help-publish-api-data-langfileinfo-0000002271000653": {
+  "title": "LangFileInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "LangFileInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-languageinfo-0000002236041462": {
+  "title": "LanguageInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "LanguageInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-lawregulationmode-0000002295005342": {
+  "title": "LawRegulationMode",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "LawRegulationMode"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-managepersionalinfo-0000002328924985": {
+  "title": "ManagePersonalInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "ManagePersonalInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-publish-api-data-memberrolelist-0000002679449001": {
+  "title": "MemberRoleList",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "MemberRoleList"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-07-31 02:52:03"
+ },
+ "agc-help-publish-api-data-opentestinfo-0000002678282119": {
+  "title": "OpenTestInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "OpenTestInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-07-31 02:52:03"
+ },
+ "agc-help-publish-api-data-otherratingresult-0000002621935699": {
+  "title": "OtherRatingResult",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "OtherRatingResult"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-packageinfo-0000002328964965": {
+  "title": "PackageInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "PackageInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "publish-api-packagepermissionintrovedio-0000002236201278": {
+  "title": "PackagePermissionIntroVideo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "PackagePermissionIntroVideo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-packagestates-0000002271160601": {
+  "title": "PackageStates",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "PackageStates"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-pair-0000002271000645": {
+  "title": "Pair",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "Pair"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-permission-0000002328924977": {
+  "title": "Permission",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "Permission"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-personalinfo-0000002328805173": {
+  "title": "PersonalInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "PersonalInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-phasedreleaseinfo-0000002271160597": {
+  "title": "PhasedReleaseInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "PhasedReleaseInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-qualificationfileinfo-0000002271160609": {
+  "title": "QualificationFileInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "QualificationFileInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-qualificationinfo-0000002236201286": {
+  "title": "QualificationInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "QualificationInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-qualreviewtaskinfo-0000002271000665": {
+  "title": "QualReviewTaskInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "QualReviewTaskInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-recommendinfo-0000002328805177": {
+  "title": "RecommendInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "RecommendInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-requiredinfo-0000002295005294": {
+  "title": "RequiredInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "RequiredInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-role-0000002679289169": {
+  "title": "Role",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "Role"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-07-31 02:52:03"
+ },
+ "agc-help-publish-api-data-sceneitem-0000002294845634": {
+  "title": "SceneItem",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "SceneItem"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-sdkinfo-0000002295005346": {
+  "title": "SdkInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "SdkInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-servicestop-0000002328805237": {
+  "title": "ServiceStop",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "ServiceStop"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-servicetypeinfo-0000002328805213": {
+  "title": "ServiceTypeInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "ServiceTypeInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-storageinfo-0000002295005350": {
+  "title": "StorageInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "StorageInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-subagreement-0000002328805241": {
+  "title": "SubAgreement",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "SubAgreement"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-tagqual-0000002236201282": {
+  "title": "TagQual",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "TagQual"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-tagqualinfo-0000002236041478": {
+  "title": "TagQualInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "TagQualInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-publish-api-data-testtaskinfo-0000002648371004": {
+  "title": "TestTaskInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "TestTaskInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-07-31 02:52:03"
+ },
+ "agc-help-publish-api-data-thirdsdkinfo-0000002328805217": {
+  "title": "ThirdSdkInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "ThirdSdkInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-thirdsharedinfo-0000002294845678": {
+  "title": "ThirdSharedInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "ThirdSharedInfo"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-versionchangedesc-0000002294845686": {
+  "title": "VersionChangeDesc",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "VersionChangeDesc"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-data-versionvoc-0000002495156924": {
+  "title": "VersionVoc",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "数据模型",
+   "VersionVoc"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:53"
+ },
+ "agc-help-publish-api-errorcode-0000002271000673": {
+  "title": "错误码",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Publishing API参考",
+   "错误码"
+  ],
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:37"
+ },
+ "agc-help-provision-api-guide-0000002271000601": {
+  "title": "Provisioning API指南",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API指南"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:09"
+ },
+ "agc-help-provision-api-reference-0000002236041494": {
+  "title": "Provisioning API参考",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:09"
+ },
+ "agc-help-provision-api-apply-cent-0000002236201302": {
+  "title": "申请证书",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "申请证书"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:19"
+ },
+ "agc-help-provision-api-query-cent-0000002271160629": {
+  "title": "查询证书",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "查询证书"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:22"
+ },
+ "agc-help-provision-api-delete-cent-0000002271000685": {
+  "title": "删除证书",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "删除证书"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:26"
+ },
+ "agc-help-provision-api-add-device-0000002236041498": {
+  "title": "批量添加设备",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "批量添加设备"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:28"
+ },
+ "agc-help-provision-api-query-device-0000002236201306": {
+  "title": "查询设备列表",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "查询设备列表"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:29"
+ },
+ "agc-help-provision-api-delete-device-0000002271160633": {
+  "title": "删除设备",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "删除设备"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:30"
+ },
+ "agc-help-provision-api-apply-provision-0000002271000689": {
+  "title": "申请Profile",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "申请Profile"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:32"
+ },
+ "agc-help-provision-api-query-provision-0000002236041506": {
+  "title": "查询Profile列表",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "查询Profile列表"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:33"
+ },
+ "agc-help-provision-api-update-provision-0000002469198766": {
+  "title": "修改Profile绑定的设备",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "修改Profile绑定的设备"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:33"
+ },
+ "agc-help-provision-api-delete-provision-0000002236201310": {
+  "title": "删除Profile",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "删除Profile"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:33"
+ },
+ "agc-help-provision-api-eligible-acl-0000002554975044": {
+  "title": "查询可申请的ACL权限列表",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "查询可申请的ACL权限列表"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:34"
+ },
+ "agc-help-provision-api-applyacl-0000002502198721": {
+  "title": "申请受限ACL权限",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "申请受限ACL权限"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:34"
+ },
+ "agc-help-provision-api-getaclapplystatus-0000002469246150": {
+  "title": "查询受限ACL权限的申请状态",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "查询受限ACL权限的申请状态"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:34"
+ },
+ "agc-help-provision-api-getacl-0000002465770113": {
+  "title": "查询已申请的受限ACL权限",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "查询已申请的受限ACL权限"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:35"
+ },
+ "agc-help-provision-api-add-fingerprints-0000002431201480": {
+  "title": "新增证书指纹",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "新增证书指纹"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:35"
+ },
+ "agc-help-provision-api-get-fingerprints-0000002431361316": {
+  "title": "查询证书指纹",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "查询证书指纹"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:36"
+ },
+ "agc-help-provision-api-delete-fingerprints-0000002464839925": {
+  "title": "删除证书指纹",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "删除证书指纹"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:36"
+ },
+ "agc-help-provision-api-data-0000002271160637": {
+  "title": "数据模型",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "数据模型"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:36"
+ },
+ "agc-help-provision-api-data-adddeviceinfo-0000002236201314": {
+  "title": "AddDeviceInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "数据模型",
+   "AddDeviceInfo"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:37"
+ },
+ "agc-help-provision-api-data-adddeviceresult-0000002271160641": {
+  "title": "AddDeviceResult",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "数据模型",
+   "AddDeviceResult"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:41"
+ },
+ "agc-help-provision-api-data-certinfo-0000002236041510": {
+  "title": "CertInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "数据模型",
+   "CertInfo"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:44"
+ },
+ "agc-help-provision-api-data-connectret-0000002271000693": {
+  "title": "ConnectRet",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "数据模型",
+   "ConnectRet"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:46"
+ },
+ "agc-help-provision-api-data-deviceinfo-0000002271000697": {
+  "title": "DeviceInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "数据模型",
+   "DeviceInfo"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:50"
+ },
+ "agc-help-provision-api-data-applypermissioninfo-0000002469038756": {
+  "title": "OpenApplyPermissionInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "数据模型",
+   "OpenApplyPermissionInfo"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:51"
+ },
+ "agc-help-provision-api-data-applypermissionstatus-0000002502126131": {
+  "title": "OpenApplyPermissionStatusInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "数据模型",
+   "OpenApplyPermissionStatusInfo"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-provision-api-data-permission-0000002585695085": {
+  "title": "Permission",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "数据模型",
+   "Permission"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-provision-api-data-permissionlanguage-0000002585575019": {
+  "title": "PermissionLanguage",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "数据模型",
+   "PermissionLanguage"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-provision-api-data-provisioninfo-0000002236041514": {
+  "title": "ProvisionInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "数据模型",
+   "ProvisionInfo"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-provision-api-data-userpermission-0000002466197781": {
+  "title": "UserPermission",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "数据模型",
+   "UserPermission"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:52"
+ },
+ "agc-help-provision-api-errorcode-0000002236201322": {
+  "title": "错误码",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Provisioning API参考",
+   "错误码"
+  ],
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:36"
+ },
+ "agc-help-domain-api-guide-0000002236041402": {
+  "title": "Domain Management API指南",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Domain Management API指南"
+  ],
+  "group": "Domain Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:10"
+ },
+ "agc-help-domain-api-reference-0000002271160649": {
+  "title": "Domain Management API参考",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Domain Management API参考"
+  ],
+  "group": "Domain Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:11"
+ },
+ "agc-help-domain-api-get-domain-0000002271000701": {
+  "title": "查询元服务的域名配置信息",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Domain Management API参考",
+   "查询元服务的域名配置信息"
+  ],
+  "group": "Domain Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:18"
+ },
+ "agc-help-domain-api-post-domain-0000002236041522": {
+  "title": "新增/更新元服务的域名配置信息",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Domain Management API参考",
+   "新增/更新元服务的域名配置信息"
+  ],
+  "group": "Domain Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:19"
+ },
+ "agc-help-domain-api-get-domain-config-0000002236201326": {
+  "title": "查询域名修改次数/配置上限",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Domain Management API参考",
+   "查询域名修改次数/配置上限"
+  ],
+  "group": "Domain Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:22"
+ },
+ "agc-help-domain-api-download-domain-config-0000002271160653": {
+  "title": "下载域名配置文件",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Domain Management API参考",
+   "下载域名配置文件"
+  ],
+  "group": "Domain Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:26"
+ },
+ "agc-help-domain-api-precheck-0000002295134522": {
+  "title": "预检查业务域名配置",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Domain Management API参考",
+   "预检查业务域名配置"
+  ],
+  "group": "Domain Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:28"
+ },
+ "agc-help-domain-api-data-0000002237343328": {
+  "title": "数据模型",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Domain Management API参考",
+   "数据模型"
+  ],
+  "group": "Domain Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:29"
+ },
+ "agc-help-domain-api-data-appdomainconfig-0000002237503148": {
+  "title": "AppDomainConfig",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Domain Management API参考",
+   "数据模型",
+   "AppDomainConfig"
+  ],
+  "group": "Domain Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:37"
+ },
+ "agc-help-domain-api-data-connectret-0000002272462489": {
+  "title": "ConnectRet",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Domain Management API参考",
+   "数据模型",
+   "ConnectRet"
+  ],
+  "group": "Domain Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:41"
+ },
+ "agc-help-domain-api-data-domaininfo-0000002272582405": {
+  "title": "DomainInfo",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Domain Management API参考",
+   "数据模型",
+   "DomainInfo"
+  ],
+  "group": "Domain Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:44"
+ },
+ "agc-help-domain-api-data-domaininfo2-0000002273216801": {
+  "title": "DomainInfo2",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Domain Management API参考",
+   "数据模型",
+   "DomainInfo2"
+  ],
+  "group": "Domain Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:46"
+ },
+ "agc-help-domain-api-errorcode-0000002362050933": {
+  "title": "错误码",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Domain Management API参考",
+   "错误码"
+  ],
+  "group": "Domain Management API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:30"
+ },
+ "agc-help-report-api-guide-0000002271134669": {
+  "title": "Reports API指南",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Reports API指南"
+  ],
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:12"
+ },
+ "agc-help-report-api-reference-0000002236201354": {
+  "title": "Reports API参考",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Reports API参考"
+  ],
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 13:06:56"
+ },
+ "agc-help-report-api-obtain-source-voice-0000002464628284": {
+  "title": "获取应用源声数据详情",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Reports API参考",
+   "获取应用源声数据详情"
+  ],
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:18"
+ },
+ "agc-help-report-api-obtain-measures-data-0000002467612601": {
+  "title": "获取HarmonyOS应用或元服务报表的指标数据",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Reports API参考",
+   "获取HarmonyOS应用或元服务报表的指标数据"
+  ],
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "updated": "2026-09-10 03:06:27"
+ },
+ "agc-help-report-api-user-analysis-export-0000002271160681": {
+  "title": "获取HarmonyOS应用或元服务用户分析的报表文件",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Reports API参考",
+   "获取HarmonyOS应用或元服务用户分析的报表文件"
+  ],
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "updated": "2026-09-10 03:06:27"
+ },
+ "agc-help-report-api-app-download-export-0000002271000737": {
+  "title": "获取HarmonyOS应用下载安装的报表文件",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Reports API参考",
+   "获取HarmonyOS应用下载安装的报表文件"
+  ],
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "updated": "2026-07-08 03:48:37"
+ },
+ "agc-help-report-api-app-install-failed-0000002236041554": {
+  "title": "获取HarmonyOS应用安装失败的报表文件",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Reports API参考",
+   "获取HarmonyOS应用安装失败的报表文件"
+  ],
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "updated": "2026-07-08 03:48:37"
+ },
+ "agc-help-report-api-distribute-analysis-export-0000002236201358": {
+  "title": "获取元服务分发分析的报表文件",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Reports API参考",
+   "获取元服务分发分析的报表文件"
+  ],
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "updated": "2026-07-08 03:48:37"
+ },
+ "agc-help-report-api-appfreeze-0000002309619750": {
+  "title": "获取AppFreeze指标",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Reports API参考",
+   "获取AppFreeze指标"
+  ],
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:31"
+ },
+ "agc-help-report-api-crash-0000002343738625": {
+  "title": "获取Crash指标",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Reports API参考",
+   "获取Crash指标"
+  ],
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:32"
+ },
+ "agc-help-report-api-data-0000002273179781": {
+  "title": "数据模型",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Reports API参考",
+   "数据模型"
+  ],
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:33"
+ },
+ "agc-help-report-api-data-connectret-0000002273219845": {
+  "title": "ConnectRet",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Reports API参考",
+   "数据模型",
+   "ConnectRet"
+  ],
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:37"
+ },
+ "agc-help-report-api-data-vocreportdata-0000002497658249": {
+  "title": "vocReportData",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Reports API参考",
+   "数据模型",
+   "vocReportData"
+  ],
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:41"
+ },
+ "agc-help-report-api-data-analyticsreportdata-0000002434328984": {
+  "title": "analyticsReportData",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Reports API参考",
+   "数据模型",
+   "analyticsReportData"
+  ],
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:44"
+ },
+ "agc-help-report-api-data-analyticsreportdatadetail-0000002467887469": {
+  "title": "analyticsReportDataDetail",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Reports API参考",
+   "数据模型",
+   "analyticsReportDataDetail"
+  ],
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:46"
+ },
+ "agc-help-report-api-errorcode-0000002271160685": {
+  "title": "错误码",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "Reports API参考",
+   "错误码"
+  ],
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:33"
+ },
+ "agc-help-connect-api-demo-0000002238448026": {
+  "title": "示例代码",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "示例代码"
+  ],
+  "group": "Auth",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:13"
+ },
+ "agc-help-connect-api-commonerror-0000002553016832": {
+  "title": "公共错误码",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "公共错误码"
+  ],
+  "group": "Auth",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:14"
+ },
+ "agc-help-connect-api-appendix-0000002271000741": {
+  "title": "附录",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "附录"
+  ],
+  "group": "附录",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:15"
+ },
+ "agc-help-connect-api-appendix-langtype-0000002236041558": {
+  "title": "语言类型",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "附录",
+   "语言类型"
+  ],
+  "group": "附录",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:18"
+ },
+ "agc-help-connect-api-appendix-countrycode-0000002236201362": {
+  "title": "国家码",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "附录",
+   "国家码"
+  ],
+  "group": "附录",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:20"
+ },
+ "agc-help-connect-api-appendix-apptype-0000002271160689": {
+  "title": "应用游戏分类",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "附录",
+   "应用游戏分类"
+  ],
+  "group": "附录",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:22"
+ },
+ "agc-help-connect-api-appendix-applevel-0000002271000745": {
+  "title": "应用分级",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "附录",
+   "应用分级"
+  ],
+  "group": "附录",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:26"
+ },
+ "agc-help-connect-api-appendix-gettestkey-0000002236041566": {
+  "title": "获取验签公钥",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "附录",
+   "获取验签公钥"
+  ],
+  "group": "附录",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:28"
+ },
+ "agc-help-connect-pi-appendix-pricechange-0000002236201366": {
+  "title": "价格换算规则",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "附录",
+   "价格换算规则"
+  ],
+  "group": "附录",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:29"
+ },
+ "agc-help-connect-api-appendix-requirement-0000002271160693": {
+  "title": "应用文件要求",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "附录",
+   "应用文件要求"
+  ],
+  "group": "附录",
+  "platform": "harmonyos",
+  "updated": "2026-07-08 09:32:32"
+ },
+ "agc-help-connect-api-appendix-application-status-0000002240477940": {
+  "title": "应用状态说明",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "附录",
+   "应用状态说明"
+  ],
+  "group": "附录",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:32"
+ },
+ "agc-help-connect-api-appendix-qualificationcode-0000002422741790": {
+  "title": "资质编码与资质文件对照表",
+  "catalog": "app",
+  "path": [
+   "AppGallery Connect API",
+   "附录",
+   "资质编码与资质文件对照表"
+  ],
+  "group": "附录",
+  "platform": "harmonyos",
+  "updated": "2026-06-25 09:00:33"
+ },
+ "agcapi-getstarted-0000001111845114": {
+  "title": "使用入门",
+  "catalog": "AppGallery-connect-Guides",
+  "path": [
+   "Connect API",
+   "使用入门"
+  ],
+  "group": "Auth",
+  "platform": "common",
+  "updated": "2026-03-10 10:08:03"
+ }
+}

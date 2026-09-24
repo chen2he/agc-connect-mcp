@@ -1,0 +1,2659 @@
+[
+ {
+  "doc": "agcapi-obtain_token-0000001158365043",
+  "title": "获取Token",
+  "group": "Auth",
+  "platform": "common",
+  "method": "POST",
+  "path": "/api/oauth2/v1/token",
+  "url": "https://connect-api.cloud.huawei.com/api/oauth2/v1/token",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-obtain-token-project-0000001477336048",
+  "title": "获取Token（项目级）",
+  "group": "Auth",
+  "platform": "common",
+  "method": "POST",
+  "path": "/api/oauth2/v1/token",
+  "url": "https://{domain}/api/oauth2/v1/token",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-appid-list-0000001111845086",
+  "title": "查询应用包名对应的appid",
+  "group": "Publishing API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/publish/v2/appid-list",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/appid-list",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-app-info-query-0000001158365045",
+  "title": "查询应用信息",
+  "group": "Publishing API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/publish/v2/app-info",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/app-info",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-app-info-update-0000001111685198",
+  "title": "更新应用基本信息",
+  "group": "Publishing API",
+  "platform": "android",
+  "method": "PUT",
+  "path": "/api/publish/v2/app-info",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/app-info",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-language-info-update-0000001158245057",
+  "title": "更新语言描述信息",
+  "group": "Publishing API",
+  "platform": "android",
+  "method": "PUT",
+  "path": "/api/publish/v2/app-language-info",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/app-language-info",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-language-info-delete-0000001111845088",
+  "title": "删除语言描述信息",
+  "group": "Publishing API",
+  "platform": "android",
+  "method": "DELETE",
+  "path": "/api/publish/v2/app-language-info",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/app-language-info",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-app-file-info-0000001111685202",
+  "title": "更新应用文件信息",
+  "group": "Publishing API",
+  "platform": "android",
+  "method": "PUT",
+  "path": "/api/publish/v2/app-file-info",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/app-file-info",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-app-submit-0000001158245061",
+  "title": "提交发布",
+  "group": "Publishing API",
+  "platform": "android",
+  "method": "POST",
+  "path": "/api/publish/v2/app-submit",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/app-submit",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-app-submit-with-file-0000001111845092",
+  "title": "通过下载方式提交发布",
+  "group": "Publishing API",
+  "platform": "android",
+  "method": "POST",
+  "path": "/api/publish/v2/app-submit-with-file",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/app-submit-with-file",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-phased-release-0000001111685204",
+  "title": "更新分阶段发布",
+  "group": "Publishing API",
+  "platform": "android",
+  "method": "PUT",
+  "path": "/api/publish/v2/phased-release",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/phased-release",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-notify-release-0000001158245063",
+  "title": "回调结果通知",
+  "group": "Publishing API",
+  "platform": "android",
+  "method": "POST",
+  "path": null,
+  "url": "通过下载方式提交发布、通过下载方式提交软件包等接口中传入的**callbackAddr**中指定的地址，您需自行保证地址能访问。",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-gms-0000001111845094",
+  "title": "设置应用GMS依赖属性",
+  "group": "Publishing API",
+  "platform": "android",
+  "method": "PUT",
+  "path": "/api/publish/v2/properties/gms",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/properties/gms",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-update-releasetime-0000001158365053",
+  "title": "更新版本上架时间",
+  "group": "Publishing API",
+  "platform": "android",
+  "method": "PUT",
+  "path": "/api/publish/v2/on-shelf-time",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/on-shelf-time",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-query-aabfile-0000001111685206",
+  "title": "查询软件包编译状态",
+  "group": "Publishing API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/publish/v2/package/compile/status",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/package/compile/status",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-add-packageurl-0000001158245065",
+  "title": "通过下载方式提交软件包",
+  "group": "Publishing API",
+  "platform": "android",
+  "method": "POST",
+  "path": "/api/publish/v2/app-package-file/by-url",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/app-package-file/by-url",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-obbfile-package-list-0000001111685210",
+  "title": "查询软件包列表",
+  "group": "Publishing API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/publish/v2/package-list",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/package-list",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-upload-url-new-0000001111685200",
+  "title": "获取文件上传地址",
+  "group": "Upload Management API",
+  "platform": "common",
+  "method": "GET",
+  "path": "/api/publish/v2/upload-url/for-obs",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/upload-url/for-obs",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-upload-file-new-0000001111845090",
+  "title": "上传文件",
+  "group": "Upload Management API",
+  "platform": "common",
+  "method": "PUT",
+  "path": null,
+  "url": "获取上传文件地址接口中获取的URL地址。",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-obbfile-init-0000001158365055",
+  "title": "分片上传初始化",
+  "group": "Upload Management API",
+  "platform": "common",
+  "method": "POST",
+  "path": "/api/publish/v2/upload/multipart/init",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/upload/multipart/init",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-obbfile-uploadurl-0000001111685208",
+  "title": "获取分片上传地址",
+  "group": "Upload Management API",
+  "platform": "common",
+  "method": "POST",
+  "path": "/api/publish/v2/upload/multipart/parts",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/upload/multipart/parts",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-obbfile-compose-0000001111845098",
+  "title": "合并分片",
+  "group": "Upload Management API",
+  "platform": "common",
+  "method": "POST",
+  "path": "/api/publish/v2/upload/multipart/compose",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/upload/multipart/compose",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-appdownloadexport-0000001158365059",
+  "title": "获取下载安装的报表",
+  "group": "Reports API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/report/distribution-operation-quality/v1/appDownloadExport/{appId}",
+  "url": "https://connect-api.cloud.huawei.com/api/report/distribution-operation-quality/v1/appDownloadExport/{appId}",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-gamereservationexport-0000001111685212",
+  "title": "获取预约的报表",
+  "group": "Reports API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/report/distribution-operation-quality/v1/gameReservationExport/{appId}",
+  "url": "https://connect-api.cloud.huawei.com/api/report/distribution-operation-quality/v1/gameReservationExport/{appId}",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-activityawardexport-0000001158245071",
+  "title": "获取给指定用户群发奖的报表",
+  "group": "Reports API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/report/distribution-operation-quality/v1/activityAwardExport/{appId}",
+  "url": "https://connect-api.cloud.huawei.com/api/report/distribution-operation-quality/v1/activityAwardExport/{appId}",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-addadkpexport-0000001111845102",
+  "title": "获取新增和留存的报表",
+  "group": "Reports API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/report/distribution-operation-quality/v1/addAdKpExport/{appId}",
+  "url": "https://connect-api.cloud.huawei.com/api/report/distribution-operation-quality/v1/addAdKpExport/{appId}",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-iapexport-0000001158365061",
+  "title": "获取应用内付费的报表",
+  "group": "Reports API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/report/distribution-operation-quality/v1/IAPExport/{appId}",
+  "url": "https://connect-api.cloud.huawei.com/api/report/distribution-operation-quality/v1/IAPExport/{appId}",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-orderanalysisexport-0000001111685214",
+  "title": "获取付费下载的报表",
+  "group": "Reports API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/report/distribution-operation-quality/v1/orderAnalysisExport/{appId}",
+  "url": "https://{domain}/api/report/distribution-operation-quality/v1/orderAnalysisExport/{appId}",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-orderdetailexport-0000001158245073",
+  "title": "获取付费下载明细的报表",
+  "group": "Reports API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/report/distribution-operation-quality/v1/orderDetailExport/{appId}",
+  "url": "https://{domain}/api/report/distribution-operation-quality/v1/orderDetailExport/{appId}",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-couponexport-0000001111845104",
+  "title": "获取优惠券活动的报表",
+  "group": "Reports API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/report/distribution-operation-quality/v1/activityCouponExport/{appId}",
+  "url": "https://connect-api.cloud.huawei.com/api/report/distribution-operation-quality/v1/activityCouponExport/{appId}",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-appdownloadfailexport-0000001158365063",
+  "title": "获取安装失败数据的报表",
+  "group": "Reports API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/report/distribution-operation-quality/v1/appDownloadFailExport/{appId}",
+  "url": "https://connect-api.cloud.huawei.com/api/report/distribution-operation-quality/v1/appDownloadFailExport/{appId}",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-fa-distribute_analysis_export-0000001690307352",
+  "title": "获取元服务分发分析的报表文件",
+  "group": "Reports API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/report/distribution-operation-quality/v1/fa/distributeAnalysisExport/{appId}",
+  "url": "https://connect-api.cloud.huawei.com/api/report/distribution-operation-quality/v1/fa/distributeAnalysisExport/{appId}",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-fa-user_analysis_export-0000001738465949",
+  "title": "获取元服务新增留存的报表文件",
+  "group": "Reports API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/report/distribution-operation-quality/v1/fa/userAnalysisExport/{appId}",
+  "url": "https://connect-api.cloud.huawei.com/api/report/distribution-operation-quality/v1/fa/userAnalysisExport/{appId}",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-fa-widget_analysis_export-0000001690467092",
+  "title": "获取元服务卡片分析的报表文件",
+  "group": "Reports API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/report/distribution-operation-quality/v1/fa/widgetAnalysisExport/{appId}",
+  "url": "https://connect-api.cloud.huawei.com/api/report/distribution-operation-quality/v1/fa/widgetAnalysisExport/{appId}",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-getteamlist-0000001158245075",
+  "title": "获取团队列表",
+  "group": "Project Management API",
+  "platform": "common",
+  "method": "GET",
+  "path": "/api/ups/user-permission-service/v1/user-team-list",
+  "url": "https://connect-api.cloud.huawei.com/api/ups/user-permission-service/v1/user-team-list",
+  "auth": [
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-appbriefinfo-0000001111845106",
+  "title": "获取应用简略信息",
+  "group": "Project Management API",
+  "platform": "common",
+  "method": "GET",
+  "path": "/api/cds/app-distirbution/v1/all/app-brief-info/list",
+  "url": "https://connect-api.cloud.huawei.com/api/cds/app-distirbution/v1/all/app-brief-info/list",
+  "auth": [
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-getconfigfile-0000001158365065",
+  "title": "获取配置文件",
+  "group": "Project Management API",
+  "platform": "common",
+  "method": "GET",
+  "path": "/api/cpms/project-management-service/v1/config-file",
+  "url": "https://connect-api.cloud.huawei.com/api/cpms/project-management-service/v1/config-file",
+  "auth": [
+   "service_account",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-addappfingerprint-0000001111685218",
+  "title": "添加证书指纹",
+  "group": "Project Management API",
+  "platform": "common",
+  "method": "PUT",
+  "path": "/api/cds/app-distirbution/v1/all/app-extra-info/{appId}",
+  "url": "https://connect-api.cloud.huawei.com/api/cds/app-distirbution/v1/all/app-extra-info/{appId}",
+  "auth": [
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-queryappfingerprint-0000001158245077",
+  "title": "查询证书指纹和AppSecret",
+  "group": "Project Management API",
+  "platform": "common",
+  "method": "GET",
+  "path": "/api/cds/app-distirbution/v1/all/app-extra-info/{appId}",
+  "url": "https://connect-api.cloud.huawei.com/api/cds/app-distirbution/v1/all/app-extra-info/{appId}",
+  "auth": [
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-queryservice-0000001111845108",
+  "title": "查询服务开通状态",
+  "group": "Project Management API",
+  "platform": "common",
+  "method": "GET",
+  "path": "/api/cpms/project-service/v1/services/order-api",
+  "url": "https://connect-api.cloud.huawei.com/api/cpms/project-service/v1/services/order-api",
+  "auth": [
+   "service_account",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-queryprojectdetail-0000001158365067",
+  "title": "查询项目详情及项目下的应用",
+  "group": "Project Management API",
+  "platform": "common",
+  "method": "GET",
+  "path": "/api/project-service/v1/projects/{projectId}",
+  "url": "https://connect-api.cloud.huawei.com/api/project-service/v1/projects/{projectId}",
+  "auth": [
+   "service_account",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-queryprojectlist-0000001111685220",
+  "title": "查询项目列表",
+  "group": "Project Management API",
+  "platform": "common",
+  "method": "GET",
+  "path": "/api/project-service/v1/projects",
+  "url": "https://connect-api.cloud.huawei.com/api/project-service/v1/projects",
+  "auth": [
+   "service_account",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-comapi-getreviews-harmonyos-0000002470893976",
+  "title": "查询应用评论列表",
+  "group": "Comments API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/marketing-api/v2/reviews/manage/dev/reviews",
+  "url": "https://{domain}/api/marketing-api/v2/reviews/manage/dev/reviews?appId={appId}&beginTime={beginTime}&endTime={endTime}&countries={countries}",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-com-getreviewinfo-harmonyos-0000002504053839",
+  "title": "查询单个评论详情",
+  "group": "Comments API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/marketing-api/v2/reviews/manage/dev/reviews/{reviewId}",
+  "url": "https://{domain}/api/marketing-api/v2/reviews/manage/dev/reviews/{reviewId}?appId={appId}",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-com-reviewreply-harmonyos-0000002471053974",
+  "title": "回复评论和回复",
+  "group": "Comments API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/marketing-api/v2/reviews/manage/dev/reviews",
+  "url": "https://{domain}/api/marketing-api/v2/reviews/manage/dev/reviews",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-com-rating-harmonyos-0000002503933921",
+  "title": "查询应用评分列表",
+  "group": "Comments API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/marketing-api/v2/reviews/manage/dev/ratings",
+  "url": "https://{domain}/api/marketing-api/v2/reviews/manage/dev/ratings?appId={appId}&beginTime={beginTime}&endTime={endTime}&countries={countries}",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-comapi-getreviews-0000001162468139",
+  "title": "查询评论列表",
+  "group": "Comments API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/reviews/v1/manage/dev/reviews",
+  "url": "https://{domain}/api/reviews/v1/manage/dev/reviews?appId={appId}&beginTime={beginTime}&endTime={endTime}&countries={countries}",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-com-getreviewinfo-0000001116028248",
+  "title": "查询单个评论详情",
+  "group": "Comments API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/reviews/v1/manage/dev/reviews/{reviewId}",
+  "url": "https://{domain}/api/reviews/v1/manage/dev/reviews/{reviewId}?appId={appId}&page={page}&limit={limit}",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-com-reviewreply-0000001162548117",
+  "title": "回复评论和回复",
+  "group": "Comments API",
+  "platform": "android",
+  "method": "POST",
+  "path": "/api/reviews/v1/manage/dev/reviews",
+  "url": "https://{domain}/api/reviews/v1/manage/dev/reviews",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-com-rating-0000001133889426",
+  "title": "查询应用评分",
+  "group": "Comments API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/reviews/v1/manage/dev/ratings",
+  "url": "https://{domain}/api/reviews/v1/manage/dev/ratings?appId={appId}&beginTime={beginTime}&endTime={endTime}&countries={countries}&apkVersions={apkVersions}&rating={rating}&sort={sort}&page={page}&limit={limit}",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-addproduct-android-0000002171407001",
+  "title": "创建商品",
+  "group": "PMS API",
+  "platform": "android",
+  "method": "POST",
+  "path": "/api/pms/product-price-service/v1/manage/product",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v1/manage/product",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-batchaddproduct-android-0000002171288605",
+  "title": "批量创建商品",
+  "group": "PMS API",
+  "platform": "android",
+  "method": "POST",
+  "path": "/api/pms/product-price-service/v1/manage/product/batchImportProducts",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v1/manage/product/batchImportProducts",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-addproductgroup-android-0000002135929308",
+  "title": "创建商品订阅分组信息",
+  "group": "PMS API",
+  "platform": "android",
+  "method": "POST",
+  "path": "/api/pms/product-price-service/v1/manage/product/group",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v1/manage/product/group",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-updateproductgroup-android-0000002136087400",
+  "title": "更新商品订阅分组信息",
+  "group": "PMS API",
+  "platform": "android",
+  "method": "PUT",
+  "path": "/api/pms/product-price-service/v1/manage/product/group",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v1/manage/product/group",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-getproductgroup-android-0000002171407009",
+  "title": "查询商品订阅分组信息",
+  "group": "PMS API",
+  "platform": "android",
+  "method": "POST",
+  "path": "/api/pms/product-price-service/v1/manage/product/group/list",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v1/manage/product/group/list",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-getproductinfo-android-0000002171288609",
+  "title": "查询商品详情",
+  "group": "PMS API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/pms/product-price-service/v1/manage/product",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v1/manage/product?productNo={productNo}&country={country}",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-bygetproductinfo-android-0000002135929316",
+  "title": "按条件查询商品信息",
+  "group": "PMS API",
+  "platform": "android",
+  "method": "POST",
+  "path": "/api/pms/product-price-service/v1/manage/product/list",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v1/manage/product/list",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-updateproduct-android-0000002136087404",
+  "title": "更新商品信息",
+  "group": "PMS API",
+  "platform": "android",
+  "method": "PUT",
+  "path": "/api/pms/product-price-service/v1/manage/product",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v1/manage/product",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-batchupdateproduct-android-0000002171407013",
+  "title": "批量更新商品",
+  "group": "PMS API",
+  "platform": "android",
+  "method": "PUT",
+  "path": "/api/pms/product-price-service/v1/manage/product/batchImportProducts",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v1/manage/product/batchImportProducts",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-batchactproduct-android-0000002171288617",
+  "title": "批量激活商品",
+  "group": "PMS API",
+  "platform": "android",
+  "method": "PUT",
+  "path": "/api/pms/product-price-service/v1/manage/product/batchActive",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v1/manage/product/batchActive",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-batchdeactproduct-android-0000002135929320",
+  "title": "批量去激活商品",
+  "group": "PMS API",
+  "platform": "android",
+  "method": "PUT",
+  "path": "/api/pms/product-price-service/v1/manage/product/batchDeactive",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v1/manage/product/batchDeactive",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-isproductactive-android-0000002136087412",
+  "title": "查询是否有在线商品",
+  "group": "PMS API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/pms/product-price-service/v1/manage/product/check",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v1/manage/product/check",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-addpromotion-android-0000002171407021",
+  "title": "创建商品促销信息",
+  "group": "PMS API",
+  "platform": "android",
+  "method": "POST",
+  "path": "/api/pms/product-price-service/v1/manage/product/promotion",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v1/manage/product/promotion",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-updatepromotion-android-0000002171288621",
+  "title": "更新商品促销信息",
+  "group": "PMS API",
+  "platform": "android",
+  "method": "PUT",
+  "path": "/api/pms/product-price-service/v1/manage/product/promotion",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v1/manage/product/promotion",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-getpromotioninfo-android-0000002135929328",
+  "title": "查询商品促销详情",
+  "group": "PMS API",
+  "platform": "android",
+  "method": "GET",
+  "path": "/api/pms/product-price-service/v1/manage/product/promotion",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v1/manage/product/promotion?promotionId={promotionId}",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-bygetpromotioninfo-android-0000002136087416",
+  "title": "按条件查询商品促销信息",
+  "group": "PMS API",
+  "platform": "android",
+  "method": "POST",
+  "path": "/api/pms/product-price-service/v1/manage/product/promotion/list",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v1/manage/product/promotion/list",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-batchactpromotion-android-0000002171407025",
+  "title": "批量上线商品促销活动",
+  "group": "PMS API",
+  "platform": "android",
+  "method": "PUT",
+  "path": "/api/pms/product-price-service/v1/manage/product/promotion/batchActive",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v1/manage/product/promotion/batchActive",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-batchdeactpromotion-android-0000002171288629",
+  "title": "批量下线商品促销活动",
+  "group": "PMS API",
+  "platform": "android",
+  "method": "PUT",
+  "path": "/api/pms/product-price-service/v1/manage/product/promotion/batchDeactive",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v1/manage/product/promotion/batchDeactive",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-resourcemanage-harmonyosnext-0000002131361792",
+  "title": "上传资源",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/pms/product-price-service/v2/manage/resource",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/resource",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-addproduct-harmonyosnext-0000002131508844",
+  "title": "创建商品",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/pms/product-price-service/v2/manage/product",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/product",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-reviewproduct-harmonyosnext-0000002166681241",
+  "title": "提交商品审核",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/pms/product-price-service/v2/manage/product/review",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/product/review",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-batchaddproduct-harmonyosnext-0000002131350704",
+  "title": "批量创建商品",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/pms/product-price-service/v2/manage/product/batchImportProducts",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/product/batchImportProducts",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-addproductgroup-harmonyosnext-0000002166748605",
+  "title": "创建商品订阅分组信息",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/pms/product-price-service/v2/manage/product/group",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/product/group",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-updateproductgroup-harmonyosnext-0000002166670137",
+  "title": "更新商品订阅分组信息",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/pms/product-price-service/v2/manage/product/group",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/product/group",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-getproductgroup-harmonyosnext-0000002131508848",
+  "title": "查询商品订阅分组信息",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/pms/product-price-service/v2/manage/product/group/list",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/product/group/list",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-levelgroup-harmonyosnext-0000002175107485",
+  "title": "更新商品订阅分组等级信息",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/pms/product-price-service/v2/manage/product/group/level",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/product/group/level",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-getproductinfo-harmonyosnext-0000002131350708",
+  "title": "查询商品详情",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/pms/product-price-service/v2/manage/product",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/product?productNo={productNo}&productId ={productId}&country={country}",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-bygetproductinfo-harmonyosnext-0000002166748609",
+  "title": "按条件查询商品信息",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/pms/product-price-service/v2/manage/product/list",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/product/list",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-updateproduct-harmonyosnext-0000002166670141",
+  "title": "更新商品信息",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/pms/product-price-service/v2/manage/product",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/product",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-batchupdateproduct-harmonyosnext-0000002131508852",
+  "title": "批量更新商品",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/pms/product-price-service/v2/manage/product/batchImportProducts",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/product/batchImportProducts",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-batchactproduct-harmonyosnext-0000002131350712",
+  "title": "批量激活商品",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/pms/product-price-service/v2/manage/product/batchActive",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/product/batchActive",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-batchdeactproduct-harmonyosnext-0000002166748613",
+  "title": "批量去激活商品",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/pms/product-price-service/v2/manage/product/batchDeactive",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/product/batchDeactive",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-isproductactive-harmonyosnext-0000002166670145",
+  "title": "查询是否有在线商品",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/pms/product-price-service/v2/manage/product/check",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/product/check",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-addpromotion-harmonyosnext-0000002131508856",
+  "title": "创建商品促销信息",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/pms/product-price-service/v2/manage/product/promotion",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/product/promotion",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-updatepromotion-harmonyosnext-0000002131350716",
+  "title": "更新商品促销信息",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/pms/product-price-service/v2/manage/product/promotion",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/product/promotion",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-getpromotioninfo-harmonyosnext-0000002166748617",
+  "title": "查询商品促销详情",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/pms/product-price-service/v2/manage/product/promotion",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/product/promotion?promotionId={promotionId}",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-bygetpromotioninfo-harmonyosnext-0000002166670149",
+  "title": "按条件查询商品促销信息",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/pms/product-price-service/v2/manage/product/promotion/list",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/product/promotion/list",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-batchactpromotion-harmonyosnext-0000002131508860",
+  "title": "批量上线商品促销活动",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/pms/product-price-service/v2/manage/product/promotion/batchActive",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/product/promotion/batchActive",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-batchdeactpromotion-harmonyosnext-0000002131350720",
+  "title": "批量下线商品促销活动",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/pms/product-price-service/v2/manage/product/promotion/batchDeactive",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/product/promotion/batchDeactive",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-basicapplication-harmonyosnext-0000002131519928",
+  "title": "查询关联APP已有商品类型",
+  "group": "PMS API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/pms/product-price-service/v2/manage/application/basic",
+  "url": "https://connect-api.cloud.huawei.com/api/pms/product-price-service/v2/manage/application/basic",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agcapi-basic-info-0000002038975322",
+  "title": "批量查询玩家基本信息",
+  "group": "在玩服务",
+  "platform": "common",
+  "method": "POST",
+  "path": null,
+  "url": "URL由华为运营联系您获取。",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-role-info-0000002075016173",
+  "title": "批量查询玩家角色信息",
+  "group": "在玩服务",
+  "platform": "common",
+  "method": "POST",
+  "path": null,
+  "url": "URL由华为运营联系您获取。",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-resources-0000002022105725",
+  "title": "上传/下架游戏资源",
+  "group": "在玩服务",
+  "platform": "common",
+  "method": "POST",
+  "path": null,
+  "url": "https://jos-open-api.cloud.huawei.com/gameservice/api/gbClientApi",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-summary-0000002022225249",
+  "title": "查询游戏概要信息",
+  "group": "在玩服务",
+  "platform": "common",
+  "method": "POST",
+  "path": null,
+  "url": "URL由华为运营联系您获取。",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-label-0000001985625670",
+  "title": "查询战绩筛选标签",
+  "group": "在玩服务",
+  "platform": "common",
+  "method": "POST",
+  "path": null,
+  "url": "URL由华为运营联系您获取。",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-scores-0000001985465938",
+  "title": "分页查询玩家战绩",
+  "group": "在玩服务",
+  "platform": "common",
+  "method": "POST",
+  "path": null,
+  "url": "URL由华为运营联系您获取。",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-asset-summary-0000002022105729",
+  "title": "查询资产概要",
+  "group": "在玩服务",
+  "platform": "common",
+  "method": "POST",
+  "path": null,
+  "url": "URL由华为运营联系您获取。",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-asset-details-0000002022225253",
+  "title": "查询资产明细",
+  "group": "在玩服务",
+  "platform": "common",
+  "method": "POST",
+  "path": null,
+  "url": "URL由华为运营联系您获取。",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-propapi-getroleinfo-0000002355255377",
+  "title": "查询玩家区服角色",
+  "group": "游戏道具商城",
+  "platform": "common",
+  "method": "POST",
+  "path": null,
+  "url": "URL从AGC中接入配置获取。",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-propapi-order-0000002321296666",
+  "title": "下单",
+  "group": "游戏道具商城",
+  "platform": "common",
+  "method": "POST",
+  "path": null,
+  "url": "URL从AGC中接入配置获取。",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-respackapi-addversion-0000002328396224",
+  "title": "新增资源包版本",
+  "group": "资源包预下载",
+  "platform": "common",
+  "method": "POST",
+  "path": "/api/games-background-assets-service/v1/open-gw/dev/{devId}/package-versions",
+  "url": "https://connect-api.cloud.huawei.com/api/games-background-assets-service/v1/open-gw/dev/{devId}/package-versions",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-respackapi-uploadapplyfor-0000002328236376",
+  "title": "资源包文件上传申请",
+  "group": "资源包预下载",
+  "platform": "common",
+  "method": "POST",
+  "path": "/api/games-background-assets-service/v1/open-gw/dev/{devId}/package-file/apply",
+  "url": "https://connect-api.cloud.huawei.com/api/games-background-assets-service/v1/open-gw/dev/{devId}/package-file/apply",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-respackapi-uploadconfirm-0000002362394641",
+  "title": "资源包文件上传确认",
+  "group": "资源包预下载",
+  "platform": "common",
+  "method": "POST",
+  "path": "/api/games-background-assets-service/v1/open-gw/dev/{devId}/package-file/confirm",
+  "url": "https://connect-api.cloud.huawei.com/api/games-background-assets-service/v1/open-gw/dev/{devId}/package-file/confirm",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-respackapi-modifyversion-0000002328236372",
+  "title": "修改资源包版本",
+  "group": "资源包预下载",
+  "platform": "common",
+  "method": "PUT",
+  "path": "/api/games-background-assets-service/v1/open-gw/dev/{devId}/package-versions",
+  "url": "https://connect-api.cloud.huawei.com/api/games-background-assets-service/v1/open-gw/dev/{devId}/package-versions",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-respackapi-releaseversion-0000002362394637",
+  "title": "发布资源包版本",
+  "group": "资源包预下载",
+  "platform": "common",
+  "method": "POST",
+  "path": "/api/games-background-assets-service/v1/open-gw/dev/{devId}/package-version/publish",
+  "url": "https://connect-api.cloud.huawei.com/api/games-background-assets-service/v1/open-gw/dev/{devId}/package-version/publish",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-respackapi-deletefile-0000002328396228",
+  "title": "删除资源包文件",
+  "group": "资源包预下载",
+  "platform": "common",
+  "method": "DELETE",
+  "path": "/api/games-background-assets-service/v1/open-gw/dev/{devId}/package-files",
+  "url": "https://connect-api.cloud.huawei.com/api/games-background-assets-service/v1/open-gw/dev/{devId}/package-files",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-respackapi-getversion-0000002362274745",
+  "title": "查询资源包版本",
+  "group": "资源包预下载",
+  "platform": "common",
+  "method": "GET",
+  "path": "/api/games-background-assets-service/v1/open-gw/dev/{devId}/package-versions",
+  "url": "https://connect-api.cloud.huawei.com/api/games-background-assets-service/v1/open-gw/dev/{devId}/package-versions",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agcapi-respackapi-queryfile-0000002362274749",
+  "title": "查询资源包文件",
+  "group": "资源包预下载",
+  "platform": "common",
+  "method": "GET",
+  "path": "/api/games-background-assets-service/v1/open-gw/dev/{devId}/package-files",
+  "url": "https://connect-api.cloud.huawei.com/api/games-background-assets-service/v1/open-gw/dev/{devId}/package-files",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-connect-api-obtain-server-auth-0000002271134661",
+  "title": "获取服务端授权",
+  "group": "Auth",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/oauth2/v1/token",
+  "url": "https://connect-api.cloud.huawei.com/api/oauth2/v1/token",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-add-test-version-0000002236041526",
+  "title": "新建测试版本",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v2/test/app/version",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/test/app/version",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-get-detect-task-0000002525033189",
+  "title": "查询上架自检报告信息",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/publish/v2/test/app/version/detect-report",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/test/app/version/detect-report",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-add-test-package-0000002236201330",
+  "title": "添加软件包",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v2/test/version/pkg",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/test/version/pkg",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-modify-test-version-0000002271160657",
+  "title": "更新测试版本",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/publish/v2/test/app/version",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/test/app/version",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-release-test-version-0000002271000713",
+  "title": "更新测试生效版本",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/publish/v2/test/version/release",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/test/version/release",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-update-test-version-opentest-0000002236041530",
+  "title": "更新有效期内的测试版本信息",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/publish/v2/test/version/open-test",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/test/version/open-test",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-submit-test-version-0000002236201334",
+  "title": "提交测试版本",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v2/test/app/version/submit",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/test/app/version/submit",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-add-test-group-0000002271160661",
+  "title": "新增测试群组",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/app-test/v1/test-group",
+  "url": "https://connect-api.cloud.huawei.com/api/app-test/v1/test-group",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-get-test-grouplist-0000002271000717",
+  "title": "查询测试群组列表",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/app-test/v1/test-group/list",
+  "url": "https://connect-api.cloud.huawei.com/api/app-test/v1/test-group/list",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-delete-test-group-0000002236041534",
+  "title": "删除测试群组",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "DELETE",
+  "path": "/api/app-test/v1/publish-api/test-group",
+  "url": "https://connect-api.cloud.huawei.com/api/app-test/v1/publish-api/test-group",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-edit-test-group-0000002634718664",
+  "title": "修改测试群组",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/app-test/v2/test-group",
+  "url": "https://connect-api.cloud.huawei.com/api/app-test/v2/test-group",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-query-test-user-0000002664997773",
+  "title": "查询测试群组成员",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/app-test/v1/test-user",
+  "url": "https://connect-api.cloud.huawei.com/api/app-test/v1/test-user",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-add-test-group-user-0000002236201338",
+  "title": "新增测试群组成员",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v2/test/user",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/test/user",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-query-test-group-user-0000002271160665",
+  "title": "查询测试群组成员",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/publish/v2/test/group",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/test/group",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-delete-test-group-user-0000002271000721",
+  "title": "删除测试群组成员",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "DELETE",
+  "path": "/api/publish/v2/test/user",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/test/user",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-post-test-notify-0000002236041538",
+  "title": "发送邀请测试通知",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v1/test/user/action/notify",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v1/test/user/action/notify",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-add-invite-code-0000002236201342",
+  "title": "生成邀请码",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/app-test/v1/invitation-code",
+  "url": "https://connect-api.cloud.huawei.com/api/app-test/v1/invitation-code",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-delete-invite-code-0000002634878570",
+  "title": "删除邀请码",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "DELETE",
+  "path": "/api/app-test/v1/invitation-code",
+  "url": "https://connect-api.cloud.huawei.com/api/app-test/v1/invitation-code?invitationCodeId=invia****KEF",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-get-invite-code-0000002271160669",
+  "title": "查询测试群组邀请码",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/app-test/v1/test-group/invitation-code",
+  "url": "https://connect-api.cloud.huawei.com/api/app-test/v1/test-group/invitation-code",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-stop-invite-code-0000002271000725",
+  "title": "停止邀请码",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/app-test/v1/invitation-code/action/stop",
+  "url": "https://connect-api.cloud.huawei.com/api/app-test/v1/invitation-code/action/stop",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-stop-test-version-0000002236041542",
+  "title": "停止测试版本",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v2/test/version/stop",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/test/version/stop",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-delete-test-version-0000002236201346",
+  "title": "删除测试版本",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "DELETE",
+  "path": "/api/publish/v2/test/app/version",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/test/app/version",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-create-open-test-link-0000002665117715",
+  "title": "创建公开链接",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/app-test/v1/test-group/public-link",
+  "url": "https://connect-api.cloud.huawei.com/api/app-test/v1/test-group/public-link",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-edit-open-test-link-0000002634718666",
+  "title": "修改公开链接",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/app-test/v1/test-group/public-link",
+  "url": "https://connect-api.cloud.huawei.com/api/app-test/v1/test-group/public-link",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-query-open-test-link-0000002664997775",
+  "title": "查询公开链接",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/app-test/v1/test-group/public-link",
+  "url": "https://connect-api.cloud.huawei.com/api/app-test/v1/test-group/public-link?groupId=2c3***********d",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-query-feedback-dimension-0000002634878572",
+  "title": "查询测试问题反馈维度",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/app-test/v1/mgmt/tester-feedback-dimension/action/query",
+  "url": "https://connect-api.cloud.huawei.com/api/app-test/v1/mgmt/tester-feedback-dimension/action/query",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-query-feedback-0000002665117717",
+  "title": "查询测试问题反馈",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/app-test/v1/mgmt/tester-feedback/action/query",
+  "url": "https://connect-api.cloud.huawei.com/api/app-test/v1/mgmt/tester-feedback/action/query",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-test-api-delete-feedback-0000002634718668",
+  "title": "删除测试问题反馈",
+  "group": "Testing API",
+  "platform": "harmonyos",
+  "method": "DELETE",
+  "path": "/api/app-test/v1/mgmt/tester-feedback",
+  "url": "https://connect-api.cloud.huawei.com/api/app-test/v1/mgmt/tester-feedback",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-upload-api-upload-url-0000002236201294",
+  "title": "获取文件上传地址",
+  "group": "Upload Management API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/publish/v2/upload-url/for-obs",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/upload-url/for-obs",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-upload-api-upload-file-0000002271160621",
+  "title": "上传文件",
+  "group": "Upload Management API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": null,
+  "url": "获取上传文件地址接口中获取的URL地址。",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-upload-api-obbfile-init-0000002271000677",
+  "title": "分片上传初始化",
+  "group": "Upload Management API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v2/upload/multipart/init",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/upload/multipart/init",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-upload-api-obbfile-uploadurl-0000002236041490",
+  "title": "获取分片上传地址",
+  "group": "Upload Management API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v2/upload/multipart/parts",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/upload/multipart/parts",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-upload-api-obbfile-compose-0000002271160625",
+  "title": "合并分片",
+  "group": "Upload Management API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v2/upload/multipart/compose",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/upload/multipart/compose",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-provision-api-create-appid-0000002526543939",
+  "title": "创建APP ID",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v3/app",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v3/app",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-appid-list-0000002271000617",
+  "title": "查询应用包名对应的appid",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/publish/v2/appid-list",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/appid-list",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-teamid-member-list-0000002679253743",
+  "title": "查询团队账号下的成员角色列表",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/publish/v3/members-role-list",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v3/members-role-list",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-appinfo-query-0000002236041422",
+  "title": "查询应用信息",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/publish/v3/app-info",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v3/app-info",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-appinfo-update-0000002236201246",
+  "title": "更新应用基本信息",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/publish/v3/app-info",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v3/app-info",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-language-info-update-0000002271160569",
+  "title": "更新应用语言信息",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/publish/v3/app-language-info",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v3/app-language-info",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-language-info-delete-0000002271000621",
+  "title": "删除应用语言信息",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "DELETE",
+  "path": "/api/publish/v2/app-language-info",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/app-language-info",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-app-file-info-update-0000002236041430",
+  "title": "更新应用文件信息",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/publish/v3/app-file-info",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v3/app-file-info",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-app-package-info-update-0000002236201250",
+  "title": "更新应用软件包信息",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/publish/v3/app-package-info",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v3/app-package-info",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-update-release-time-0000002271160573",
+  "title": "更新版本上架时间",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/publish/v2/on-shelf-time",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/on-shelf-time",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-phased-release-0000002271000625",
+  "title": "更新分阶段发布",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/publish/v2/version/phased-release",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/version/phased-release",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-query-package-info-0000002328848469",
+  "title": "查询应用软件包信息",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/publish/v2/app-package-info",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/app-package-info",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-query-compile-status-0000002236041434",
+  "title": "查询软件包编译状态",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/publish/v3/package/compile/status",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v3/package/compile/status",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-query-brief-info-list-0000002236201254",
+  "title": "查询应用所有版本类型的版本列表",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v3/version/brief-info/list",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v3/version/brief-info/list",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-post-app-version-voc-0000002495233986",
+  "title": "查询应用未处理的问题工单",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v1/app-voc/version-voc",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v1/app-voc/version-voc",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-query-tag-qual-dependent-0000002271160577",
+  "title": "查询需要上传的资质文件信息",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/publish/v2/tag-qual-dependent",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/tag-qual-dependent",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-post-qualification-review-0000002271000629",
+  "title": "提交资质审核任务",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v2/qualification-review-task",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/qualification-review-task",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-get-qualification-review-0000002236041438",
+  "title": "查询资质审核任务详情",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/publish/v2/qualification-review-task",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/qualification-review-task",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-put-qualification-review-0000002422530746",
+  "title": "修改资质审核任务",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/publish/v2/qualification-review-task",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/qualification-review-task",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-cancel-qualification-review-0000002236201258",
+  "title": "撤销资质审核任务",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/publish/v2/qualification-review-task/cancel",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/qualification-review-task/cancel",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-delete-qualification-review-0000002526538788",
+  "title": "删除资质审核任务",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "DELETE",
+  "path": "/api/publish/v2/qualification-review-task",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/qualification-review-task",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-create-user-agreement-0000002271160581",
+  "title": "新建用户协议",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v2/agreement",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/agreement",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-query-user-agreement-0000002236041442",
+  "title": "查询用户协议列表",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v2/agreement/list",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/agreement/list",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-update-user-agreement-0000002294845626",
+  "title": "更新用户协议",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/publish/v2/agreement",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/agreement",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-put-privacy-agreement-0000002271000633",
+  "title": "提交隐私政策协议",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/publish/v2/agreement/submit",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/agreement/submit",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-query-privacy-agreement-0000002328924925",
+  "title": "查询隐私政策协议列表",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v2/agreement/list",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/agreement/list",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-update-privacy-agreement-0000002328805169",
+  "title": "更新隐私政策协议",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/publish/v2/agreement",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/agreement",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-post-app-age-rating-0000002236201262",
+  "title": "申请年龄分级",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v2/app-age-rating",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/app-age-rating",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-app-submit-0000002271160585",
+  "title": "提交发布",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v3/app-submit",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v3/app-submit",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-on-shelf-cancel-0000002271000637",
+  "title": "撤销审核",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/publish/v3/version/on-shelf/cancel",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v3/version/on-shelf/cancel",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-publish-api-app-shelf-off-0000002236041450",
+  "title": "下架应用",
+  "group": "Publishing API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v2/app-shelf-off",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/app-shelf-off",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-provision-api-apply-cent-0000002236201302",
+  "title": "申请证书",
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v3/cert",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v3/cert",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-provision-api-query-cent-0000002271160629",
+  "title": "查询证书",
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v3/cert/list",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v3/cert/list",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-provision-api-delete-cent-0000002271000685",
+  "title": "删除证书",
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v2/cert/delete",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/cert/delete",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-provision-api-add-device-0000002236041498",
+  "title": "批量添加设备",
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v2/device",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/device",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-provision-api-query-device-0000002236201306",
+  "title": "查询设备列表",
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/publish/v2/device/list",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/device/list",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-provision-api-delete-device-0000002271160633",
+  "title": "删除设备",
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v2/device/delete",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/device/delete",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-provision-api-apply-provision-0000002271000689",
+  "title": "申请Profile",
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/publish/v3/provision",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v3/provision",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-provision-api-query-provision-0000002236041506",
+  "title": "查询Profile列表",
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/publish/v3/provision/list",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v3/provision/list",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-provision-api-update-provision-0000002469198766",
+  "title": "修改Profile绑定的设备",
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "method": "PUT",
+  "path": "/api/publish/v3/provision",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v3/provision",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-provision-api-delete-provision-0000002236201310",
+  "title": "删除Profile",
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "method": "DELETE",
+  "path": "/api/publish/v2/provision",
+  "url": "https://connect-api.cloud.huawei.com/api/publish/v2/provision",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-provision-api-eligible-acl-0000002554975044",
+  "title": "查询可申请的ACL权限列表",
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/provision/v1/user/permission/apply/list",
+  "url": "https://connect-api.cloud.huawei.com/api/provision/v1/user/permission/apply/list",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-provision-api-applyacl-0000002502198721",
+  "title": "申请受限ACL权限",
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/provision/v1/user/permission/apply",
+  "url": "https://connect-api.cloud.huawei.com/api/provision/v1/user/permission/apply",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-provision-api-getaclapplystatus-0000002469246150",
+  "title": "查询受限ACL权限的申请状态",
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/provision/v1/user/permission/apply/status",
+  "url": "https://connect-api.cloud.huawei.com/api/provision/v1/user/permission/apply/status",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-provision-api-getacl-0000002465770113",
+  "title": "查询已申请的受限ACL权限",
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/provision/v1/user/permission",
+  "url": "https://connect-api.cloud.huawei.com/api/provision/v1/user/permission",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-provision-api-add-fingerprints-0000002431201480",
+  "title": "新增证书指纹",
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/provision/v1/fingerprints",
+  "url": "https://connect-api.cloud.huawei.com/api/provision/v1/fingerprints",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-provision-api-get-fingerprints-0000002431361316",
+  "title": "查询证书指纹",
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/provision/v1/fingerprints",
+  "url": "https://connect-api.cloud.huawei.com/api/provision/v1/fingerprints",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-provision-api-delete-fingerprints-0000002464839925",
+  "title": "删除证书指纹",
+  "group": "Provisioning API",
+  "platform": "harmonyos",
+  "method": "DELETE",
+  "path": "/api/provision/v1/fingerprints",
+  "url": "https://connect-api.cloud.huawei.com/api/provision/v1/fingerprints",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-domain-api-get-domain-0000002271000701",
+  "title": "查询元服务的域名配置信息",
+  "group": "Domain Management API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/dms/domain-manage/v1/app/domain",
+  "url": "https://connect-api.cloud.huawei.com/api/dms/domain-manage/v1/app/domain",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-domain-api-post-domain-0000002236041522",
+  "title": "新增/更新元服务的域名配置信息",
+  "group": "Domain Management API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/dms/domain-manage/v1/app/domain",
+  "url": "https://connect-api.cloud.huawei.com/api/dms/domain-manage/v1/app/domain",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-domain-api-get-domain-config-0000002236201326",
+  "title": "查询域名修改次数/配置上限",
+  "group": "Domain Management API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/dms/domain-manage/v1/app/domain/config",
+  "url": "https://connect-api.cloud.huawei.com/api/dms/domain-manage/v1/app/domain/config",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-domain-api-download-domain-config-0000002271160653",
+  "title": "下载域名配置文件",
+  "group": "Domain Management API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/dms/domain-manage/v1/app/domain/verify-file",
+  "url": "https://connect-api.cloud.huawei.com/api/dms/domain-manage/v1/app/domain/verify-file",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-domain-api-precheck-0000002295134522",
+  "title": "预检查业务域名配置",
+  "group": "Domain Management API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/dms/domain-manage/v1/app/domain/pre-check",
+  "url": "https://connect-api.cloud.huawei.com/api/dms/domain-manage/v1/app/domain/pre-check",
+  "auth": [
+   "service_account",
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-report-api-obtain-source-voice-0000002464628284",
+  "title": "获取应用源声数据详情",
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/report/harmony-report/v1/harmony/voc-report/{appId}",
+  "url": "https://connect-api.cloud.huawei.com/api/report/harmony-report/v1/harmony/voc-report/{appId}",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-report-api-obtain-measures-data-0000002467612601",
+  "title": "获取HarmonyOS应用或元服务报表的指标数据",
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/report/harmony-report/v1/harmony/analyticsReport/{appId}",
+  "url": "https://connect-api.cloud.huawei.com/api/report/harmony-report/v1/harmony/analyticsReport/{appId}",
+  "auth": [
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-report-api-user-analysis-export-0000002271160681",
+  "title": "获取HarmonyOS应用或元服务用户分析的报表文件",
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/report/harmony-report/v1/harmony/userAnalysisExport/{appId}",
+  "url": "https://connect-api.cloud.huawei.com/api/report/harmony-report/v1/harmony/userAnalysisExport/{appId}",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-report-api-app-download-export-0000002271000737",
+  "title": "获取HarmonyOS应用下载安装的报表文件",
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/report/harmony-report/v1/harmony/appDownloadAnalysisExport/{appId}",
+  "url": "https://connect-api.cloud.huawei.com/api/report/harmony-report/v1/harmony/appDownloadAnalysisExport/{appId}",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-report-api-app-install-failed-0000002236041554",
+  "title": "获取HarmonyOS应用安装失败的报表文件",
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/report/harmony-report/v1/harmony/installFailedAnalysisExport/{appId}",
+  "url": "https://connect-api.cloud.huawei.com/api/report/harmony-report/v1/harmony/installFailedAnalysisExport/{appId}",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-report-api-distribute-analysis-export-0000002236201358",
+  "title": "获取元服务分发分析的报表文件",
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "method": "GET",
+  "path": "/api/report/harmony-report/v1/fa/distributeAnalysisExport/{appId}",
+  "url": "https://connect-api.cloud.huawei.com/api/report/harmony-report/v1/fa/distributeAnalysisExport/{appId}",
+  "auth": [
+   "service_account",
+   "api_client",
+   "oauth"
+  ]
+ },
+ {
+  "doc": "agc-help-report-api-appfreeze-0000002309619750",
+  "title": "获取AppFreeze指标",
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/apm/api/v1/hap/query/app-freeze/metric",
+  "url": "https://connect-api.cloud.huawei.com/api/apm/api/v1/hap/query/app-freeze/metric",
+  "auth": [
+   "api_client"
+  ]
+ },
+ {
+  "doc": "agc-help-report-api-crash-0000002343738625",
+  "title": "获取Crash指标",
+  "group": "Reports API",
+  "platform": "harmonyos",
+  "method": "POST",
+  "path": "/api/apm/api/v1/hap/query/crash/metric",
+  "url": "https://connect-api.cloud.huawei.com/api/apm/api/v1/hap/query/crash/metric",
+  "auth": [
+   "api_client"
+  ]
+ }
+]
