@@ -1,6 +1,7 @@
 {
   "name": "agc-connect-mcp",
   "version": "0.1.0",
+  "private": true,
   "description": "MCP server for Huawei AppGallery Connect (Connect API) and the HarmonyOS developer knowledge base — publish apps, manage reviews, export reports, search HarmonyOS docs from any AI agent.",
   "keywords": [
     "mcp",
@@ -30,11 +31,6 @@
     "agc-connect-mcp": "dist/index.js"
   },
   "main": "dist/index.js",
-  "files": [
-    "dist",
-    "data",
-    "README.en.md"
-  ],
   "scripts": {
     "build": "tsc",
     "prepare": "tsc",

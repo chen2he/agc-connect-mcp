@@ -36,17 +36,15 @@
 
 ```text
 command: npx
-args:    -y agc-connect-mcp
+args:    -y github:chen2he/agc-connect-mcp
 env:     AGC_SERVICE_ACCOUNT_FILE=/path/to/service-account.json
          AGC_CLIENT_FILE=/path/to/api-client.json
 ```
 
-两个 `env` 都可以省略：不配置 AGC 凭据时，文档检索类工具照常可用。凭据的获取方法见[配置 AGC 凭据](#配置-agc-凭据)。
-
-> 还没发布到 npm 时，可以把 `agc-connect-mcp` 换成 `github:chen2he/agc-connect-mcp`，直接从 GitHub 运行（首次运行会自动下载并编译）。
+`npx` 会直接从 GitHub 下载本项目并自动编译（仅首次运行需要，之后使用缓存）。两个 `env` 都可以省略：不配置 AGC 凭据时，文档检索类工具照常可用。凭据的获取方法见[配置 AGC 凭据](#配置-agc-凭据)。
 
 <details>
-<summary>从源码安装（不经过 npm）</summary>
+<summary>从源码安装</summary>
 
 ```bash
 git clone https://github.com/chen2he/agc-connect-mcp.git
@@ -54,7 +52,7 @@ cd agc-connect-mcp
 npm install   # 会自动编译到 dist/
 ```
 
-然后把下文各配置中的 `npx -y agc-connect-mcp` 换成 `node /绝对路径/agc-connect-mcp/dist/index.js`。
+然后把下文各配置中的 `npx -y github:chen2he/agc-connect-mcp` 换成 `node /绝对路径/agc-connect-mcp/dist/index.js`。
 
 </details>
 
@@ -64,7 +62,7 @@ npm install   # 会自动编译到 dist/
 claude mcp add agc -s user \
   -e AGC_SERVICE_ACCOUNT_FILE=/path/to/service-account.json \
   -e AGC_CLIENT_FILE=/path/to/api-client.json \
-  -- npx -y agc-connect-mcp
+  -- npx -y github:chen2he/agc-connect-mcp
 ```
 
 ### Codex CLI
@@ -73,7 +71,7 @@ claude mcp add agc -s user \
 codex mcp add agc \
   --env AGC_SERVICE_ACCOUNT_FILE=/path/to/service-account.json \
   --env AGC_CLIENT_FILE=/path/to/api-client.json \
-  -- npx -y agc-connect-mcp
+  -- npx -y github:chen2he/agc-connect-mcp
 ```
 
 也可以直接编辑 `~/.codex/config.toml`：
@@ -81,7 +79,7 @@ codex mcp add agc \
 ```toml
 [mcp_servers.agc]
 command = "npx"
-args = ["-y", "agc-connect-mcp"]
+args = ["-y", "github:chen2he/agc-connect-mcp"]
 env = { AGC_SERVICE_ACCOUNT_FILE = "/path/to/service-account.json", AGC_CLIENT_FILE = "/path/to/api-client.json" }
 ```
 
@@ -94,7 +92,7 @@ Claude Desktop、Cursor、Windsurf、Cline / Roo Code、Gemini CLI、Trae、DevE
   "mcpServers": {
     "agc": {
       "command": "npx",
-      "args": ["-y", "agc-connect-mcp"],
+      "args": ["-y", "github:chen2he/agc-connect-mcp"],
       "env": {
         "AGC_SERVICE_ACCOUNT_FILE": "/path/to/service-account.json",
         "AGC_CLIENT_FILE": "/path/to/api-client.json"
@@ -123,14 +121,14 @@ Claude Desktop、Cursor、Windsurf、Cline / Roo Code、Gemini CLI、Trae、DevE
     "agc": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "agc-connect-mcp"],
+      "args": ["-y", "github:chen2he/agc-connect-mcp"],
       "env": { "AGC_SERVICE_ACCOUNT_FILE": "/path/to/service-account.json" }
     }
   }
 }
 ```
 
-> **Windows 用户**：少数客户端无法直接启动 `npx`，可以把命令改成 `"command": "cmd", "args": ["/c", "npx", "-y", "agc-connect-mcp"]`。
+> **Windows 用户**：少数客户端无法直接启动 `npx`，可以把命令改成 `"command": "cmd", "args": ["/c", "npx", "-y", "github:chen2he/agc-connect-mcp"]`。
 
 ## 配置 AGC 凭据
 

@@ -36,17 +36,15 @@ Every client uses the same command, arguments and environment variables:
 
 ```text
 command: npx
-args:    -y agc-connect-mcp
+args:    -y github:chen2he/agc-connect-mcp
 env:     AGC_SERVICE_ACCOUNT_FILE=/path/to/service-account.json
          AGC_CLIENT_FILE=/path/to/api-client.json
 ```
 
-Both env vars are optional. Without AGC credentials, the documentation tools still work. See [AGC credentials](#agc-credentials) for how to get them.
-
-> Until the package is on npm, use `github:chen2he/agc-connect-mcp` in place of `agc-connect-mcp` to run straight from GitHub (the first run downloads and builds it).
+`npx` fetches this project straight from GitHub and builds it (first run only; later runs use the cache). Both env vars are optional. Without AGC credentials, the documentation tools still work. See [AGC credentials](#agc-credentials) for how to get them.
 
 <details>
-<summary>Install from source (without npm)</summary>
+<summary>Install from source</summary>
 
 ```bash
 git clone https://github.com/chen2he/agc-connect-mcp.git
@@ -54,7 +52,7 @@ cd agc-connect-mcp
 npm install   # builds dist/ automatically
 ```
 
-Then replace `npx -y agc-connect-mcp` in the configs below with `node /absolute/path/agc-connect-mcp/dist/index.js`.
+Then replace `npx -y github:chen2he/agc-connect-mcp` in the configs below with `node /absolute/path/agc-connect-mcp/dist/index.js`.
 
 </details>
 
@@ -64,7 +62,7 @@ Then replace `npx -y agc-connect-mcp` in the configs below with `node /absolute/
 claude mcp add agc -s user \
   -e AGC_SERVICE_ACCOUNT_FILE=/path/to/service-account.json \
   -e AGC_CLIENT_FILE=/path/to/api-client.json \
-  -- npx -y agc-connect-mcp
+  -- npx -y github:chen2he/agc-connect-mcp
 ```
 
 ### Codex CLI
@@ -73,7 +71,7 @@ claude mcp add agc -s user \
 codex mcp add agc \
   --env AGC_SERVICE_ACCOUNT_FILE=/path/to/service-account.json \
   --env AGC_CLIENT_FILE=/path/to/api-client.json \
-  -- npx -y agc-connect-mcp
+  -- npx -y github:chen2he/agc-connect-mcp
 ```
 
 Or edit `~/.codex/config.toml`:
@@ -81,7 +79,7 @@ Or edit `~/.codex/config.toml`:
 ```toml
 [mcp_servers.agc]
 command = "npx"
-args = ["-y", "agc-connect-mcp"]
+args = ["-y", "github:chen2he/agc-connect-mcp"]
 env = { AGC_SERVICE_ACCOUNT_FILE = "/path/to/service-account.json", AGC_CLIENT_FILE = "/path/to/api-client.json" }
 ```
 
@@ -94,7 +92,7 @@ This format works for Claude Desktop, Cursor, Windsurf, Cline / Roo Code, Gemini
   "mcpServers": {
     "agc": {
       "command": "npx",
-      "args": ["-y", "agc-connect-mcp"],
+      "args": ["-y", "github:chen2he/agc-connect-mcp"],
       "env": {
         "AGC_SERVICE_ACCOUNT_FILE": "/path/to/service-account.json",
         "AGC_CLIENT_FILE": "/path/to/api-client.json"
@@ -123,14 +121,14 @@ This format works for Claude Desktop, Cursor, Windsurf, Cline / Roo Code, Gemini
     "agc": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "agc-connect-mcp"],
+      "args": ["-y", "github:chen2he/agc-connect-mcp"],
       "env": { "AGC_SERVICE_ACCOUNT_FILE": "/path/to/service-account.json" }
     }
   }
 }
 ```
 
-> **Windows**: a few clients can't spawn `npx` directly. Use `"command": "cmd", "args": ["/c", "npx", "-y", "agc-connect-mcp"]`.
+> **Windows**: a few clients can't spawn `npx` directly. Use `"command": "cmd", "args": ["/c", "npx", "-y", "github:chen2he/agc-connect-mcp"]`.
 
 ## AGC credentials
 
