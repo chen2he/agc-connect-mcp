@@ -43,6 +43,21 @@ const mock = createServer((req, res) => {
     };
     const route = `${req.method} ${url.pathname}`;
     if (url.pathname === "/mcp") return knowledgeMock(req, res, body);
+    // 应用级 AccessToken（表单）与 Intents Kit 接口
+    if (route === "POST /app-token") {
+      const form = new URLSearchParams(body.toString());
+      return json({ access_token: `app-token-${form.get("client_id")}`, expires_in: 3600 });
+    }
+    if (route === "POST /open-ability/v2/service-events/notify") {
+      res.writeHead(200);
+      return res.end();
+    }
+    if (route === "POST /open-ability/v2/service-events/revoke") {
+      const ev = JSON.parse(body).events[0];
+      if (ev.sid === "unknown") return json({ errorEvents: [{ requestId: ev.identifier, resultInfo: { code: "userNotFound", desc: "User is not found" } }] }, 404);
+      res.writeHead(200);
+      return res.end();
+    }
     if (route === "POST /api/oauth2/v1/token") return json({ access_token: "client-token", expires_in: 172800 });
     if (route === "GET /api/publish/v2/upload-url/for-obs") {
       return json({
@@ -142,11 +157,15 @@ fixture(
    <tr><td>appId</td><td>M</td><td>String</td><td>应用ID</td></tr></table><h4>响应参数</h4>`,
 );
 
+const appClientsFile = join(mkdtempSync(join(tmpdir(), "agc-apps-")), "apps.json");
+writeFileSync(appClientsFile, JSON.stringify({ "app-a": { client_id: "111", client_secret: "s1" }, "app-b": { client_id: "222", client_secret: "s2" } }));
+
 async function startClient(env) {
   const transport = new StdioClientTransport({
     command: process.execPath,
     args: [join(import.meta.dirname, "..", "dist", "index.js")],
-    env: { PATH: process.env.PATH, AGC_API_BASE_URL: base, AGC_DOCS_CACHE_DIR: docsCache, AGC_KNOWLEDGE_MCP_URL: `${base}/mcp`, ...env },
+    env: { PATH: process.env.PATH, AGC_API_BASE_URL: base, AGC_DOCS_CACHE_DIR: docsCache, AGC_KNOWLEDGE_MCP_URL: `${base}/mcp`,
+      AGC_HAG_BASE_URL: base, AGC_APP_TOKEN_URL: `${base}/app-token`, AGC_APP_CLIENTS_FILE: appClientsFile, ...env },
     stderr: "pipe",
   });
   const client = new Client({ name: "test", version: "0.0.0" });
@@ -209,7 +228,7 @@ describe("API 客户端凭据", () => {
       "agc_auth_status", "agc_get_api_doc", "agc_get_app_id", "agc_get_app_info", "agc_get_package_compile_status",
       "agc_get_ratings", "agc_get_report", "agc_list_apps", "agc_list_reviews", "agc_reply_review", "agc_request",
       "agc_search_api", "agc_submit_app", "agc_update_app_package", "agc_upload_file",
-      "harmonyos_get_docs", "harmonyos_search_docs",
+      "harmonyos_get_docs", "harmonyos_search_docs", "intents_revoke_event", "intents_share_event",
     ]);
   });
 
@@ -268,6 +287,47 @@ describe("API 客户端凭据", () => {
     assert.equal(s.data.resultList[0].content, "hit:Navigation 传参");
     const g = await call(client, "harmonyos_get_docs", { names: ["document/cn/a", "document/cn/b"] });
     assert.deepEqual(g.data.resultList.map((d) => d.name), ["document/cn/a", "document/cn/b"]);
+  });
+
+  test("意图共享：应用凭据换 token、x-appid、请求体结构", async () => {
+    const event = { intentName: "ViewRepayment", identifier: "evt-1", sid: "sid-1", abilityId: "ab1", intentEntityInfo: { bankName: "x" } };
+    const r = await call(client, "intents_share_event", { app: "app-a", eventType: "USER", events: [event] });
+    assert.equal(r.isError, false, r.text);
+    const tokenReq = requests.findLast((x) => x.path === "/app-token");
+    assert.match(tokenReq.headers["content-type"], /x-www-form-urlencoded/);
+    assert.equal(new URLSearchParams(tokenReq.body.toString()).get("client_secret"), "s1");
+    const req = requests.findLast((x) => x.path.endsWith("/service-events/notify"));
+    assert.equal(req.headers["x-appid"], "111");
+    assert.equal(req.headers.authorization, "Bearer app-token-111");
+    assert.equal(req.headers["x-event-type"], "USER");
+    const body = JSON.parse(req.body);
+    assert.equal(body.userAgree, true);
+    assert.match(body.events[0].requestTime, /^\d{17}$/);
+    assert.deepEqual(body.events[0].content.contentData[0], {
+      header: { namespace: "Intent", name: "ViewRepayment" },
+      payload: { identifier: "evt-1", intentEntityInfo: { bankName: "x" } },
+    });
+  });
+
+  test("意图共享：多个应用须指定 app；openId/sid 都缺时不发请求", async () => {
+    const before = requests.length;
+    const noApp = await call(client, "intents_share_event", { events: [{ intentName: "A", identifier: "e", sid: "s", intentEntityInfo: {} }] });
+    assert.match(noApp.text, /app-a \/ app-b/);
+    const noTarget = await call(client, "intents_share_event", { app: "app-a", events: [{ intentName: "A", identifier: "e", intentEntityInfo: {} }] });
+    assert.match(noTarget.text, /openId 与 sid 至少填一个/);
+    assert.equal(requests.length, before);
+  });
+
+  test("事件撤销：404 返回错误详情与提示", async () => {
+    const ok = await call(client, "intents_revoke_event", { app: "app-b", eventType: "USER", events: [{ identifier: "evt-1", abilityId: "ab1", sid: "sid-1" }] });
+    assert.equal(ok.isError, false, ok.text);
+    const req = requests.findLast((x) => x.path.endsWith("/service-events/revoke"));
+    assert.equal(req.headers["x-appid"], "222");
+    assert.equal(JSON.parse(req.body).events[0].revokeBy, "REQUEST_ID");
+    const bad = await call(client, "intents_revoke_event", { app: "app-b", eventType: "USER", events: [{ identifier: "e2", abilityId: "ab1", sid: "unknown" }] });
+    assert.equal(bad.isError, true);
+    assert.equal(bad.data.status, 404);
+    assert.match(bad.data.hint, /未找到用户/);
   });
 
   test("业务错误码返回 isError", async () => {
@@ -351,6 +411,8 @@ describe("Service Account 凭据 + 只读模式", () => {
     const put = await call(client, "agc_request", { method: "PUT", path: "/api/publish/v3/app-info", query: { appId: "1" }, body: {} });
     assert.match(put.text, /只读模式/);
     assert.equal(requests.length, before, "被拦截的请求不应发出");
+    const share = await call(client, "intents_share_event", { app: "app-a", events: [{ intentName: "A", identifier: "e", sid: "s", intentEntityInfo: {} }] });
+    assert.match(share.text, /只读模式/);
     const list = await call(client, "agc_request", { method: "POST", path: "/api/pms/product-price-service/v2/manage/product/list", body: {} });
     assert.doesNotMatch(list.text, /只读模式/);
   });
@@ -402,5 +464,7 @@ describe("同时配置两种凭据", () => {
     assert.match(r.data.checks.service_account, /^OK/);
     assert.match(r.data.checks.api_client, /^OK/);
     assert.match(r.data.coverage, /OAuth/);
+    assert.deepEqual(Object.keys(r.data.intentsApps), ["app-a", "app-b"]);
+    assert.ok(Object.values(r.data.intentsApps).every((v) => v.startsWith("OK")));
   });
 });

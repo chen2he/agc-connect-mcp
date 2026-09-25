@@ -25,6 +25,7 @@
 | `agc_list_reviews` / `agc_reply_review` / `agc_get_ratings` | 评论查询与回复、评分统计 | 是 |
 | `agc_get_report` | 导出下载安装、安装失败、用户分析、付费等报表，可下载到本地并预览 | 是 |
 | `agc_request` | 以当前凭据调用任意 Connect API，覆盖所有没有专用工具的接口 | 是 |
+| `intents_share_event` / `intents_revoke_event` | 意图框架（Intents Kit）意图共享、事件撤销：向小艺推送或撤回事件提醒 | 需应用凭据（见下文） |
 
 大多数工具有 `platform` 参数：`harmonyos` 表示 HarmonyOS 5 及以上的应用和元服务，`android` 表示 Android 以及 HarmonyOS 4 及以下。
 
@@ -150,6 +151,20 @@ Claude Desktop、Cursor、Windsurf、Cline / Roo Code、Gemini CLI、Trae、DevE
 
 凭据的角色决定能调用哪些接口，例如发布需要「APP 管理员」及以上，报表需要「运营」。配置好后，在 AI 工具里让它调用 `agc_auth_status` 就能验证。
 
+### 意图框架（Intents Kit）的应用凭据
+
+`intents_*` 工具调用的是 `hag.cloud.huawei.com` 上的意图框架服务端接口，用的是**每个应用自己的** Client ID / Client Secret（AGC「项目设置 → 应用」里查看），不是上面的 Connect API 凭据。可以用一个 JSON 文件配置多个应用：
+
+```json
+{
+  "my-app": { "client_id": "应用的 Client ID", "client_secret": "应用的 Client Secret" }
+}
+```
+
+然后设置 `AGC_APP_CLIENTS_FILE=/path/to/app-clients.json`，调用时用 `app` 参数指定别名（只配了一个应用时可以省略）。只有一个应用时，也可以直接用 `AGC_APP_CLIENT_ID` + `AGC_APP_CLIENT_SECRET`。
+
+> 意图注册、特性配置、配置检查与提交审核都在**小艺开放平台**的网页端完成，华为没有开放这部分的管理接口。小艺开放平台对开发者开放的服务端接口只有意图共享 / 事件撤销（已支持）和账号绑定 / 解绑通知。
+
 ### 其他环境变量
 
 | 变量 | 说明 |
@@ -175,7 +190,8 @@ Claude Desktop、Cursor、Windsurf、Cline / Roo Code、Gemini CLI、Trae、DevE
 - **评论与评分**只对已正式上架的应用有数据。审核中或未发布的应用会返回 `50010028`（“应用不属于该开发者”）。
 - **PMS 接口**要把 `appId` 放在**请求头**里（`agc_request` 的 `headers` 参数）。`agc_get_api_doc` 会列出这类需要自行传入的请求头。
 - **报表**返回的下载地址约 5 分钟后失效，需要报表内容时直接用 `downloadTo` 参数下载。
-- 提交发布、回复评论、下架、删除等**会对外生效**的操作，工具说明里要求 AI 先向你确认；也可以设置 `AGC_READ_ONLY=true`，从根本上禁止写操作。
+- **意图共享**的 `intentEntityInfo` 字段因意图而异，可以先用 `harmonyos_search_docs` 查「<意图名> 意图 Schema」；推送的是面向真实用户的提醒，务必确认 `openId` / `sid` 正确。
+- 提交发布、回复评论、推送意图事件、下架、删除等**会对外生效**的操作，工具说明里要求 AI 先向你确认；也可以设置 `AGC_READ_ONLY=true`，从根本上禁止写操作。
 
 ## 安全
 
@@ -203,6 +219,7 @@ src/
   portal.ts          华为文档中心接口与文档缓存
   html2md.ts         文档 HTML → Markdown
   knowledge.ts       鸿蒙开发者知识 MCP 代理
+  hag.ts             意图框架（Intents Kit）服务端接口与应用级 token
   update-catalog.ts  维护脚本：生成 data/
 data/                接口目录（元数据）
 test/                端到端测试

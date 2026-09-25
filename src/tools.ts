@@ -7,6 +7,7 @@ import { z } from "zod";
 import { docUrl, findDoc, getEndpoints, pathMatches, search } from "./catalog.js";
 import { AgcError, authHint, businessCode, type AgcClient, type HttpMethod } from "./client.js";
 import { SITES, type Site } from "./config.js";
+import { hagRequestTime, type HagClient, type HagResponse } from "./hag.js";
 import type { KnowledgeClient } from "./knowledge.js";
 import { loadDocMarkdown } from "./portal.js";
 
@@ -107,7 +108,7 @@ const REPORTS: Record<string, { platform: "harmonyos" | "android"; path: string;
   "atomic-widget": { platform: "android", path: "/api/report/distribution-operation-quality/v1/fa/widgetAnalysisExport/{appId}", desc: "元服务卡片分析（旧版）" },
 };
 
-export function registerTools(server: McpServer, client: AgcClient): void {
+export function registerTools(server: McpServer, client: AgcClient, hag?: HagClient): void {
   const { config } = client;
   const guardWrite = (what: string) => {
     if (config.readOnly) throw new Error(`当前为只读模式（AGC_READ_ONLY=true），已拒绝：${what}`);
@@ -262,12 +263,23 @@ export function registerTools(server: McpServer, client: AgcClient): void {
       const coverage = client.auth.modes().includes("api_client")
         ? "除 4 个仅限 OAuth 客户端的接口（团队列表、应用简略信息、证书指纹查询/添加）外的全部接口"
         : "Service Account 支持的接口（HarmonyOS 发布/上传/测试/证书/域名/项目/大部分报表）；评论、PMS、Android 发布需另配 API 客户端";
-      const ok = Object.keys(checks).length > 0 && Object.values(checks).every((v) => v.startsWith("OK"));
+      const intentsApps: Record<string, string> = {};
+      for (const name of hag?.appNames() ?? []) {
+        try {
+          await hag!.token(hag!.resolve(name).client, true);
+          intentsApps[name] = "OK（已获取应用级 AccessToken）";
+        } catch (err) {
+          intentsApps[name] = `FAILED：${err instanceof Error ? err.message : String(err)}`;
+        }
+      }
+      const ok =
+        Object.keys(checks).length > 0 && [...Object.values(checks), ...Object.values(intentsApps)].every((v) => v.startsWith("OK"));
       return text(
         {
           credentials: client.auth.describe(),
-          problems: config.credentials.problems,
+          problems: [...config.credentials.problems, ...(hag?.config.problems ?? [])],
           checks,
+          intentsApps: Object.keys(intentsApps).length ? intentsApps : "未配置（意图框架工具不可用，见 AGC_APP_CLIENTS_FILE）",
           coverage,
           site: config.site,
           baseUrl: config.baseUrl,
@@ -704,3 +716,135 @@ export function registerKnowledgeTools(server: McpServer, knowledge: KnowledgeCl
     wrap(async ({ names }) => knowledge.getDocuments(names)),
   );
 }
+
+const eventTarget = {
+  openId: z.string().optional().describe("华为分配的 openId（账号绑定场景）；openId 与 sid 至少填一个"),
+  sid: z.string().optional().describe("华为分配的 sid（非账号绑定场景）；openId 与 sid 至少填一个"),
+};
+
+/** Intents Kit（意图框架）服务端接口：意图共享、事件撤销。使用应用自己的 Client ID / Secret。 */
+export function registerIntentsTools(server: McpServer, hag: HagClient, readOnly: boolean): void {
+  const guardWrite = (what: string) => {
+    if (readOnly) throw new Error(`当前为只读模式（AGC_READ_ONLY=true），已拒绝：${what}`);
+  };
+  const appParam = z
+    .string()
+    .optional()
+    .describe("应用别名或 Client ID（对应 AGC_APP_CLIENTS_FILE 中的键）；只配置了一个应用时可省略");
+  const finish = (res: HagResponse, count: number): CallToolResult =>
+    res.status === 200
+      ? text({ ok: true, status: 200, events: count })
+      : text({ ok: false, status: res.status, response: res.data, hint: HAG_HINTS[res.status] }, true);
+
+  server.registerTool(
+    "intents_share_event",
+    {
+      title: "意图共享（推送事件）",
+      description:
+        "Intents Kit 意图共享：把用户事件或公共事件推送给小艺，用于事件提醒/推荐（POST hag.cloud.huawei.com/open-ability/v2/service-events/notify）。" +
+        "前提：应用已在小艺开放平台完成意图注册并上架。intentEntityInfo 的字段因意图而异，先用 harmonyos_search_docs 查“<意图名> 意图 Schema”。" +
+        "会向真实用户推送内容，调用前请与用户确认。",
+      inputSchema: {
+        app: appParam,
+        eventType: z.enum(["USER", "COMMON"]).optional().describe("x-event-type：USER 用户事件 / COMMON 公共事件"),
+        events: z
+          .array(
+            z.object({
+              intentName: z.string().describe("意图名称，如 ViewRepayment"),
+              identifier: z.string().regex(/^[a-zA-Z0-9-]{1,64}$/).describe("事件唯一标识，撤销时要用到（字母数字和 -，最长 64）"),
+              intentEntityInfo: z.record(z.string(), z.unknown()).describe("意图实体，字段见对应垂域意图 Schema"),
+              abilityId: z.string().optional().describe("服务 ID（小艺开放平台特性发布后生成的 abilityId）"),
+              ...eventTarget,
+              overwriteByEventName: z.boolean().optional().describe("是否按事件名覆盖该用户同 Ability 的其他卡片，默认否"),
+              overwriteByAbility: z.boolean().optional().describe("是否覆盖该用户同 Ability 的其他卡片，默认是"),
+            }),
+          )
+          .min(1)
+          .describe("要推送的事件列表"),
+      },
+      annotations: { readOnlyHint: false, destructiveHint: false, openWorldHint: true },
+    },
+    async ({ app, eventType, events }) => {
+      try {
+        guardWrite("意图共享");
+        const requestTime = hagRequestTime();
+        const body = {
+          events: events.map((e) => {
+            if (!e.openId && !e.sid) throw new Error(`事件 ${e.identifier}：openId 与 sid 至少填一个`);
+            return {
+              requestTime,
+              abilityId: e.abilityId,
+              openId: e.openId,
+              sid: e.sid,
+              overwriteByEventName: e.overwriteByEventName,
+              overwriteByAbility: e.overwriteByAbility,
+              content: {
+                contentData: [
+                  {
+                    header: { namespace: "Intent", name: e.intentName },
+                    payload: { identifier: e.identifier, intentEntityInfo: e.intentEntityInfo },
+                  },
+                ],
+              },
+            };
+          }),
+          userAgree: true,
+        };
+        const res = await hag.post("/open-ability/v2/service-events/notify", body, {
+          app,
+          headers: eventType ? { "x-event-type": eventType } : undefined,
+        });
+        return finish(res, events.length);
+      } catch (err) {
+        return fail(err);
+      }
+    },
+  );
+
+  server.registerTool(
+    "intents_revoke_event",
+    {
+      title: "事件撤销",
+      description:
+        "Intents Kit 事件撤销：事件数据失效时，按推送时的 identifier 撤销，避免继续提醒（POST hag.cloud.huawei.com/open-ability/v2/service-events/revoke）。",
+      inputSchema: {
+        app: appParam,
+        eventType: z.enum(["USER", "COMMON"]).describe("x-event-type：USER 用户事件 / COMMON 公共事件"),
+        events: z
+          .array(
+            z.object({
+              identifier: z.string().describe("推送时使用的事件 identifier"),
+              abilityId: z.string().describe("上架服务的服务标识 abilityId"),
+              ...eventTarget,
+              eventName: z.string().optional().describe("事件名（按默认的 REQUEST_ID 方式撤销时可不填）"),
+            }),
+          )
+          .min(1),
+      },
+      annotations: { readOnlyHint: false, destructiveHint: true, openWorldHint: true },
+    },
+    async ({ app, eventType, events }) => {
+      try {
+        guardWrite("事件撤销");
+        const requestTime = hagRequestTime();
+        const body = {
+          events: events.map((e) => {
+            if (!e.openId && !e.sid) throw new Error(`事件 ${e.identifier}：openId 与 sid 至少填一个`);
+            return { requestTime, revokeBy: "REQUEST_ID", ...e };
+          }),
+        };
+        const res = await hag.post("/open-ability/v2/service-events/revoke", body, { app, headers: { "x-event-type": eventType } });
+        return finish(res, events.length);
+      } catch (err) {
+        return fail(err);
+      }
+    },
+  );
+}
+
+const HAG_HINTS: Record<number, string> = {
+  400: "参数错误，见 errorEvents 中的 code / desc",
+  401: "应用级 AccessToken 无效或过期：检查该应用的 Client ID / Client Secret",
+  403: "网关校验开发者权限失败：确认该应用已在小艺开放平台开通意图框架并完成特性发布",
+  404: "未找到用户（sid 没有对应的 uid），见 errorEvents",
+};

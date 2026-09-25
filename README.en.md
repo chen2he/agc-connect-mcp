@@ -25,6 +25,7 @@ An MCP (Model Context Protocol) server for Huawei HarmonyOS developers. One inst
 | `agc_list_reviews` / `agc_reply_review` / `agc_get_ratings` | Reviews, replies, rating stats | Yes |
 | `agc_get_report` | Export download, install-failure, user-analysis and payment reports; optionally download and preview | Yes |
 | `agc_request` | Call any Connect API endpoint with your credentials | Yes |
+| `intents_share_event` / `intents_revoke_event` | Intents Kit event sharing and revocation: push or withdraw event reminders to Celia (小艺) | App credentials (see below) |
 
 Most tools take a `platform` argument. Use `harmonyos` for HarmonyOS 5+ apps and atomic services, and `android` for Android and HarmonyOS 4 or earlier.
 
@@ -150,6 +151,20 @@ The two credential types can reach different endpoints (per the official docs), 
 
 The credential's role determines which APIs it may call. For example, publishing needs *App administrator* or above, and reports need *Operations*. Ask your agent to run `agc_auth_status` to verify the setup.
 
+### App credentials for Intents Kit
+
+The `intents_*` tools call Intents Kit's server APIs on `hag.cloud.huawei.com`. They use **each app's own** Client ID / Client Secret (AGC → Project settings → App), not the Connect API credentials above. One JSON file can hold several apps:
+
+```json
+{
+  "my-app": { "client_id": "<app Client ID>", "client_secret": "<app Client Secret>" }
+}
+```
+
+Set `AGC_APP_CLIENTS_FILE=/path/to/app-clients.json` and pick an app with the `app` argument (optional when only one is configured). For a single app you can use `AGC_APP_CLIENT_ID` + `AGC_APP_CLIENT_SECRET` instead.
+
+> Intent registration, feature configuration, checks and review submission happen in the **Xiaoyi (Celia) Open Platform** web console; Huawei offers no management API for them. The platform's only developer-callable server APIs are intent sharing / event revocation (supported here) and account bind / unbind notifications.
+
 ### Other environment variables
 
 | Variable | Description |
@@ -166,7 +181,8 @@ The credential's role determines which APIs it may call. For example, publishing
 - **Reviews and ratings** only exist for published apps. Apps that are in review or unreleased return `50010028` ("app does not belong to developer").
 - **IAP (PMS) endpoints** expect `appId` as a **request header** (the `headers` argument of `agc_request`). `agc_get_api_doc` lists such non-auth headers.
 - **Report** download URLs expire after about 5 minutes. Pass `downloadTo` to save the file right away.
-- Tool descriptions tell the agent to ask you before any **externally visible action**: submitting a release, replying to a review, taking an app down, deleting. `AGC_READ_ONLY=true` blocks writes entirely.
+- **Intent sharing**: `intentEntityInfo` fields depend on the intent; look up "<intent name> 意图 Schema" with `harmonyos_search_docs` first. Events reach real users, so double-check `openId` / `sid`.
+- Tool descriptions tell the agent to ask you before any **externally visible action**: submitting a release, replying to a review, pushing intent events, taking an app down, deleting. `AGC_READ_ONLY=true` blocks writes entirely.
 
 ## Security
 
